@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import './picture/picture.js'
+import './components/picture/picture.js'
 import { BrowserRouter as Router , Route }from 'react-router-dom';
-import Home from './page/Home';
+import Home from './page/Home/Home';
 
 class App extends Component {
   render() {

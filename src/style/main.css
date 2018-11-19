@@ -84,7 +84,8 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
+		/* background-image: url("images/bg02.png"); */
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -182,8 +183,7 @@ input, select, textarea {
 		max-width: 100%;
 		width: 70em;
 	}
-
-		@media screen and (max-width: 1680px) {
+		 	/*TODO: media*/ 		@media screen and (max-width: 1680px) {
 
 			.container {
 				width: 70em;
@@ -191,7 +191,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		 	/*TODO: media*/ 		@media screen and (max-width: 1280px) {
 
 			.container {
 				width: calc(100% - 60px);
@@ -199,7 +199,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		 	/*TODO: media*/ 		@media screen and (max-width: 980px) {
 
 			.container {
 				width: calc(100% - 80px);
@@ -207,7 +207,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		 	/*TODO: media*/ 		@media screen and (max-width: 736px) {
 
 			.container {
 				width: calc(100% - 40px);
@@ -458,7 +458,7 @@ input, select, textarea {
 					padding-top: 100px;
 				}
 
-		@media screen and (max-width: 1680px) {
+		 	/*TODO: media*/ 		@media screen and (max-width: 1680px) {
 
 			.row {
 				display: flex;
@@ -703,7 +703,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		 	/*TODO: media*/ 		@media screen and (max-width: 1280px) {
 
 			.row {
 				display: flex;
@@ -948,7 +948,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		 	/*TODO: media*/ 		@media screen and (max-width: 980px) {
 
 			.row {
 				display: flex;
@@ -1193,7 +1193,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		 	/*TODO: media*/ 		@media screen and (max-width: 736px) {
 
 			.row {
 				display: flex;
@@ -2156,7 +2156,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		/* background: #CCE8F4 url("../../images/pic01.jpg"); */
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2250,7 +2250,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		/* background: #f7f7f7 url("images/bg02.png"); */
 		padding: 4em 0 4em 0;
 	}
 
@@ -2260,14 +2260,14 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			/* background: url("images/bg01.png"); */
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			/* background: #f7f7f7 url("images/bg02.png"); */
 		}
 
 /* Footer */
@@ -2284,7 +2284,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			/* background: url("images/bg01.png"); */
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -2333,7 +2333,7 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 1680px) {
+	 	/*TODO: media*/ 		@media screen and (max-width: 1680px) {
 
 		/* Basic */
 
@@ -2345,7 +2345,7 @@ input, select, textarea {
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	 	/*TODO: media*/ 		@media screen and (max-width: 1280px) {
 
 		/* Basic */
 
@@ -2439,7 +2439,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 980px) {
+	 	/*TODO: media*/ 		@media screen and (max-width: 980px) {
 
 		/* Basic */
 
@@ -2606,7 +2606,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
+				/* background-image: url("images/bg02.png"); */
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
@@ -2679,7 +2679,7 @@ input, select, textarea {
 
 /* Small */
 
-	@media screen and (max-width: 736px) {
+	 	/*TODO: media*/ 		@media screen and (max-width: 736px) {
 
 		/* Basic */
 

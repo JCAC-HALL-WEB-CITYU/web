@@ -1,0 +1,37 @@
+#banner2 {
+	position: relative;
+	margin: 0;
+	padding:0;
+	
+}
+#banner2 > img{
+	width:100%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	;
+	height: 100%;
+
+}
+#nav{
+	padding-bottom: 2rem;
+}
+
+.homepageExplore {
+	background-color: transparent;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	border: solid white 1px;
+	z-index: 100;
+	transition: ease 0.5s;
+}
+
+.homepageExplore:hover {
+	background-color: white;
+	color: black !important;
+}
