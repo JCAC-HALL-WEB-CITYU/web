@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {Redirect} from 'react-router-dom';
-import './../../style/main.css';
-import './style.css';
+// import './../../style/main.css';
+// import './style.css';s
+import Cover from '../../components/cover';
 
 
 class Home extends Component{
@@ -44,16 +45,19 @@ class Home extends Component{
 							</ul>
 						</nav>
 
-						<section id="banner2">
-							<img className="" src="/web/homepage/AQUATIC.png"/>
-							<img className="overlay" src="/web/homepage/1x/Artboard 1.png"/>
 
-							<div>
+				<Cover></Cover>
+						{/* <div id="banner2"> */}
+							{/* <div className="w-100">
+							<img className="" src="/web/homepage/AQUATIC.png"/>
+							<div className="overlay w-100 h-100"></div> */}
+							{/* <img className="overlay" src="/web/homepage/1x/Artboard 1.png"/> */}
+							{/* <div>
 								<button className="homepageExplore">
 									EXPLORE MORE
 								</button>
-							</div>
-						</section>
+							</div></div> */}
+						{/* </div> */}
 
 
 						<section id="intro" className="container">
