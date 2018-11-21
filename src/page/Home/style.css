@@ -4,8 +4,31 @@
 	padding:0;
 	
 }
+.homepage{
+	background: #252122;
+    /* background-image: url(images/bg02.png); */
+}
 #banner2 > img{
 	width:100%;
+}
+#main{
+	background:#f7f7f7;
+}
+#footerImage{
+	display:block;
+	width:50%;
+	margin-left:auto;
+	margin-top:auto;
+	/* height:fit-content; */
+	/* flex-wrap: nowrap; */
+	/* flex-direction: row; */
+	text-align: right;
+}
+#footerImage img{
+	width:49%; 
+	/* height:50px; */
+	margin:0;
+	padding:0 4%;
 }
 
 .overlay {
@@ -23,13 +46,7 @@
 }
 
 .homepageExplore {
-	background-color: transparent;
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-	border: solid white 1px;
-	z-index: 100;
-	transition: ease 0.5s;
+	
 }
 
 .homepageExplore:hover {
