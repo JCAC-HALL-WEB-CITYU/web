@@ -8,12 +8,12 @@ class Header extends React.Component
 		return (
 			<div >
 
-				<h1><a href="index.html">Dopetrope</a></h1>
+				<h1><a href="/">JCAC</a></h1>
 
 				<nav id="nav">
 					<ul>
-						<li className="current"><a href="index.html">Home</a></li>
-						<li>
+						<li ><a href="/">Home</a></li>
+						{/* <li className="current">
 							<a href="#">Dropdown</a>
 							<ul>
 								<li><a href="#">Lorem ipsum dolor</a></li>
@@ -31,10 +31,12 @@ class Header extends React.Component
 								</li>
 								<li><a href="#">Veroeros feugiat</a></li>
 							</ul>
-						</li>
-						<li><a href="left-sidebar.html">Left Sidebar</a></li>
-						<li><a href="right-sidebar.html">Right Sidebar</a></li>
-						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						</li> */}
+						<li><a href="/about">About JCAC</a></li>
+						<li><a href="left-sidebar.html">Hall Management</a></li>
+						<li><a href="left-sidebar.html">Events</a></li>
+						<li><a href="right-sidebar.html">Achievements</a></li>
+						<li><a href="no-sidebar.html">Hall Life</a></li>
 					</ul>
 				</nav>
 
