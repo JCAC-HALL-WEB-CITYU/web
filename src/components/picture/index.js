@@ -8,9 +8,9 @@ import ReactDOM from "react-dom";
 import Gallery from "./picture";
 
 let urls = [
-  "/web/images/pic01.jpg",
-  "/web/images/pic02.jpg",
-  "/web/images/pic02.jpg",
+  "./web/images/pic01.jpg",
+  "./web/images/pic02.jpg",
+  "./web/images/pic02.jpg",
 ];
 
 ReactDOM.render(<picture imageUrls={urls} />, document.getElementById("mount"));

@@ -27,9 +27,9 @@ class Cover extends React.Component
     })}
 				</h1>
 				<img className="landing" src={this.props.imgSrc} />
-					{this.props.dontRenderButton && <button className="exploreMoreButton">
+					{this.props.dontRenderButton && <a className="exploreMoreButton">
 						Explore More
-				</button>}
+				</a>}
 				</div>
 					</div>
 			</div>

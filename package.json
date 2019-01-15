@@ -1,6 +1,7 @@
 {
   "name": "hall4web",
   "version": "0.1.0",
+  "homepage":"http://www7.cityu.edu.hk/sro/academyhall/",
   "private": true,
   "dependencies": {
     "react": "^16.6.3",

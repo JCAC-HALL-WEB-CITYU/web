@@ -19,7 +19,7 @@ class About extends Component
 						<section id="header">
 
 							<Header></Header>
-							<Cover coverText={"ABOUT JCAC"} imgSrc={"/web/aboutJCAC/about.png"} dontRenderButton={false}></Cover>
+							<Cover coverText={"ABOUT JCAC"} imgSrc={"./web/aboutJCAC/about.png"} dontRenderButton={false}></Cover>
 						</section>
 
 						<section id="main">
@@ -147,8 +147,8 @@ Kowloon, Hong Kong SAR
 									<div className="col-12 col-md-4">
 										<section >
 											<div id="footerImage">
-												<img src="web/homepage/jcaclogo2.png" />
-												<img src="web/homepage/cityu-logo-small-white.png" />
+												<img src="./web/homepage/jcaclogo2.png" />
+												<img src="./web/homepage/cityu-logo-small-white.png" />
 											</div></section>
 									</div>
 								</div>

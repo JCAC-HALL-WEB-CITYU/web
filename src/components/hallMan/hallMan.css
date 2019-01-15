@@ -1,0 +1,46 @@
+.whiteBG2{
+	background-color:#f7f7f7;
+}
+.whiteBG2 >.row{
+	background-color: white;
+}
+
+.margin-top{
+	margin-top:10px;
+}
+
+
+.featuring{
+	max-height: 300px;
+	overflow: hidden;
+}
+.featuring > img{
+
+	height:100%;
+}
+.no-box{
+	/* padding:0 !important; */
+}
+.tempImageFix{
+	width:100%;
+}
+.tempImageFix > img{
+	height: 300px !important;
+	width:auto !important;
+
+}
+.flexDown{
+	display: flex;
+	flex-direction :column;
+}
+.flexDown > section {
+	flex-grow:1;
+	display: flex;
+	flex-direction: column;
+ }
+ .flexDown> section > footer{
+	margin-top:auto;
+ }
+.HallMan .featuring{
+	max-height:600px;
+ }

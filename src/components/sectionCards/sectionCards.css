@@ -1,0 +1,11 @@
+.whiteBG{
+	background-color : white;
+}
+.featuring2{
+	max-height: 200px;
+	overflow: hidden;
+}
+.featuring2 > img{
+
+	height:100%;
+}

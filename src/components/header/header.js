@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 import "./header.css";
 
 class Header extends React.Component
@@ -8,11 +9,11 @@ class Header extends React.Component
 		return (
 			<div >
 
-				<h1><a href="/">JCAC</a></h1>
+				<h1><Link class=" href" to="/">JCAC</Link></h1>
 
 				<nav id="nav">
 					<ul>
-						<li ><a href="/">Home</a></li>
+						<li ><Link to="/">Home</Link></li>
 						{/* <li className="current">
 							<a href="#">Dropdown</a>
 							<ul>
@@ -32,11 +33,11 @@ class Header extends React.Component
 								<li><a href="#">Veroeros feugiat</a></li>
 							</ul>
 						</li> */}
-						<li><a href="/about">About JCAC</a></li>
-						<li><a href="left-sidebar.html">Hall Management</a></li>
-						<li><a href="left-sidebar.html">Events</a></li>
-						<li><a href="right-sidebar.html">Achievements</a></li>
-						<li><a href="no-sidebar.html">Hall Life</a></li>
+						<li><Link to="/about">About JCAC</Link></li>
+						<li><Link to="/hall_management">Hall Management</Link></li>
+						<li><Link to="/event">Events</Link></li>
+						<li><Link to="right-sidebar.html">Achievements</Link></li>
+						<li><Link to="no-sidebar.html">Hall Life</Link></li>
 					</ul>
 				</nav>
 

@@ -1,0 +1,11 @@
+.leftBottomSide{
+	text-shadow: 1px 1px 1px black;
+}
+.href:hover{
+	text-decoration: none;
+	color:black;
+}
+.href{
+	font-size: 100px;
+	color:darkred;
+}

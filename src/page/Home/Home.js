@@ -21,7 +21,7 @@ class Home extends Component
 					<section id="header">
 
 				<Header></Header>
-						<Cover coverText={"AQUATIC MEET"} imgSrc={"/web/homepage/AQUATIC.png"} dontRenderButton={true}></Cover>
+						<Cover coverText={"AQUATIC MEET"} imgSrc={"./web/homepage/AQUATIC.png"} dontRenderButton={true}></Cover>
 						{/* <div id="banner2"> */}
 						{/* <div className="w-100">
 							<img className="" src="/web/homepage/AQUATIC.png"/>
@@ -175,8 +175,8 @@ Kowloon, Hong Kong SAR
 								<div className="col-12 col-md-4">
 									<section >
 										<div  id="footerImage">
-										<img  src="web/homepage/jcaclogo2.png"/>
-										<img src="web/homepage/cityu-logo-small-white.png" />
+										<img  src="./web/homepage/jcaclogo2.png"/>
+										<img src="./web/homepage/cityu-logo-small-white.png" />
 										</div></section>
 								</div>
 							</div>
