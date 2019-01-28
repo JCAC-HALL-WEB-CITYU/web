@@ -772,6 +772,14 @@
 	content: "\f091"
 }
 
+.fa-user-friends:before{
+	content:"\f500"
+}
+
+.fa-poll:before{
+	content:"\f681"
+}
+
 .fa-github-square:before {
 	content: "\f092"
 }

@@ -3,9 +3,58 @@
 }
 .href:hover{
 	text-decoration: none;
-	color:black;
+	color:darkred;
+
 }
 .href{
-	font-size: 100px;
-	color:darkred;
+	font-size: 2rem;
+	color:black;
+
+}
+#header{
+	padding-top:2rem;
+}
+.headerLogo{
+	height: 6rem;
+}
+.h3{
+	font-size: 1rem;
+	font-family: 'Nixie One', cursive!important;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+	#header{
+		padding-top:0.5rem;
+	}
+}
+
+.blackFont{
+	color:black !important;
+}
+
+.bold_font_weight{
+	font-weight: bold;
+}
+.navBarObjects{
+	transition:background-color ease 0.5s ;
+	transition:color ease 0.1s ;
+	padding-left: 1rem !important;
+	padding-right:1rem !important;
+	transition:padding ease 0.75s;
+}
+
+.nixie{
+	font-family: 'Nixie One', cursive;
+}
+
+.hoverPink:hover{
+	background-color: #c6335c;
+	color:white !important;
+	font-weight: bolder;
+	padding-left: 1.5rem !important;
+	padding-right:1.5rem !important;
+}
+.roundedBorder{
+	border-radius:10px;
 }

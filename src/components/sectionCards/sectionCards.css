@@ -2,10 +2,24 @@
 	background-color : white;
 }
 .featuring2{
-	max-height: 200px;
+	height: 200px;
 	overflow: hidden;
+	vertical-align: middle;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background:#0F0F0F;
 }
 .featuring2 > img{
-
-	height:100%;
+	width:100%;
+	height:auto;
+}
+.image img{
+	/* width:auto; */
+}
+.ABCCulture{
+	margin:auto 
+}
+.actions{
+	margin-top:20px;
 }

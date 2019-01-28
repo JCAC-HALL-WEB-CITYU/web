@@ -9,8 +9,8 @@ class Part extends React.Component
 		return (
 			<div >
 				
-				<section id="intro" className="container">
-							<div className="row">
+				<section id="intro" id="top-margin" className="container">
+							<div className="row fitWidth" id="top-margin">
 								<div className="col-4 col-12-medium">
 									<section className="first">
 										<i className="icon featured fa-search"></i>

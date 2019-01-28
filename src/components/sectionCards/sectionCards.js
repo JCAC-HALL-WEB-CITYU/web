@@ -9,15 +9,15 @@ class SectionCards extends React.Component
 		return (
 			<div>
 				<div className="container">
-					<div className="row">
-						<div className="col-12">
+					{/* <div className="row">
+						<div className="col-12"> */}
 
 							<section>
 								<header className="major">
 									<h2>NEWS</h2>
 								</header>
 								<div className="row">
-									<div className="col-4 col-6-medium col-12-small">
+									<div className="col-lg-4 col-md-6 col-12">
 											<a href="#" id="cardsImage" className="image featuring2">
 											<img src="./web/homepage/MAC.png" alt="" />
 											</a>
@@ -33,7 +33,7 @@ class SectionCards extends React.Component
 											</footer>
 										</section>
 									</div>
-									<div className="col-4 col-6-medium col-12-small">
+									<div className="col-lg-4 col-md-6 col-12">
 									<a href="#" id="cardsImage" className="image featuring2"><img src="./web/homepage/SOCCER.png" alt="" /></a>
 										<section className="box whiteBG">
 											
@@ -48,7 +48,7 @@ class SectionCards extends React.Component
 											</footer>
 										</section>
 									</div>
-									<div className="col-4 col-6-medium col-12-small">
+									<div className="col-lg-4 col-md-6 col-12">
 											<a href="#" id="cardsImage" className="image featuring2"><img src="./web/homepage/ATHLETIC.png" alt="" /></a>
 										<section className="box whiteBG">
 											<header>
@@ -65,10 +65,10 @@ class SectionCards extends React.Component
 								</div>
 							</section>
 
-						</div>
-					</div>
+						{/* </div>
+					</div> */}
 				</div>
-				<footer>
+				<footer className="container">
 					<ul className="actions">
 						<li><a id="ABCCulture" href="#" className="button large">MORE NEWS</a></li>
 						{/* <li><a href="#" className="button alt large">Learn More</a></li> */}
