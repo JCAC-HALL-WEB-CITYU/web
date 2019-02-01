@@ -17,7 +17,7 @@ class SectionCards extends React.Component
 									<h2>NEWS</h2>
 								</header>
 								<div className="row">
-									<div className="col-lg-4 col-md-6 col-12">
+									<div className="noPadding p-sm-2 p-0 pb-3 col-lg-4 col-md-6 col-12">
 											<a href="#" id="cardsImage" className="image featuring2">
 											<img src="./web/homepage/MAC.png" alt="" />
 											</a>
@@ -33,7 +33,7 @@ class SectionCards extends React.Component
 											</footer>
 										</section>
 									</div>
-									<div className="col-lg-4 col-md-6 col-12">
+									<div className="noPadding p-sm-2 p-0 pb-3 col-lg-4 col-md-6 col-12">
 									<a href="#" id="cardsImage" className="image featuring2"><img src="./web/homepage/SOCCER.png" alt="" /></a>
 										<section className="box whiteBG">
 											
@@ -48,7 +48,7 @@ class SectionCards extends React.Component
 											</footer>
 										</section>
 									</div>
-									<div className="col-lg-4 col-md-6 col-12">
+									<div className="noPadding p-sm-2 p-0 pb-3 col-lg-4 col-md-6 col-12">
 											<a href="#" id="cardsImage" className="image featuring2"><img src="./web/homepage/ATHLETIC.png" alt="" /></a>
 										<section className="box whiteBG">
 											<header>

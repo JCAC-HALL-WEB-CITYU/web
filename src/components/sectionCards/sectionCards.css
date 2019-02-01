@@ -23,3 +23,11 @@
 .actions{
 	margin-top:20px;
 }
+
+.noPadding{
+	padding:0;
+}
+
+header.major{
+	top:0;
+}

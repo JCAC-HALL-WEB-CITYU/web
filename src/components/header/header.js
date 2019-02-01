@@ -62,22 +62,22 @@ class Header extends React.Component
 					<Collapse className="sticky-top center justify-content-center" isOpen={this.state.isOpen} sticky-top navbar>
 						<Nav className="m-auto nixie bold_font_weight" justify-content-center navbar sticky-top>
 						<NavItem >
-								<NavLink className="navBarObjects hoverPink roundedBorder" href="/#">Home</NavLink>
+								<Link className="navBarObjects hoverPink roundedBorder" to="/">Home</Link>
 							</NavItem>
 							<NavItem>
-								<NavLink className="navBarObjects hoverPink roundedBorder"  href="/#/about">About JCAC</NavLink>
+								<Link className="navBarObjects hoverPink roundedBorder"  to="/about">About JCAC</Link>
 							</NavItem>
 							<NavItem>
-								<NavLink className="navBarObjects hoverPink roundedBorder" href="/#/hall_management">Hall Management</NavLink>
+								<Link className="navBarObjects hoverPink roundedBorder" to="/hall_management">Hall Management</Link>
 							</NavItem>
 							<NavItem>
-								<NavLink className="navBarObjects hoverPink roundedBorder" href="/#/event/">Events</NavLink>
+								<Link className="navBarObjects hoverPink roundedBorder" to="/event/">Events</Link>
 							</NavItem>
 							<NavItem>
-								<NavLink className="navBarObjects hoverPink roundedBorder" href="/#/event/">Achievements</NavLink>
+								<Link className="navBarObjects hoverPink roundedBorder" to="/event/">Achievements</Link>
 							</NavItem>
 							<NavItem>
-								<NavLink className="navBarObjects hoverPink roundedBorder" href="/#/event/">Hall Life</NavLink>
+								<Link className="navBarObjects hoverPink roundedBorder" to="/event/">Hall Life</Link>
 							</NavItem>
 
 

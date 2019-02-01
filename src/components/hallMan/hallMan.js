@@ -10,11 +10,11 @@ class HallMan extends React.Component
 			<div className="whiteBG2 box HallMan">
 				<div className="container ">
 					<div className="row margin-top">
-						<div class="col-12">
+						<div class="col-12 p-0 p-sm-3">
 
 							<section>
 								<div class="row">
-									<div class="col-6 col-12-small flexDown">
+									<div class="p-0 pb-3 p-sm-3 col-sm-6 col-12 flexDown">
 											<a href="#" class="image featuring"><img src="./web/homepage/tutor_photo/Ben.JPG" alt="" /></a>
 										<section class="box no-box">
 											<header>
@@ -30,7 +30,7 @@ class HallMan extends React.Component
 											</footer> */}
 										</section>
 									</div>
-									<div class="col-6 col-12-small flexDown">
+									<div class="p-0 pb-3 p-sm-3 col-sm-6 col-12 flexDown">
 											<a href="#" class="image featuring"><img src="./web/homepage/tutor_photo/Lucas.JPG" alt="" /></a>
 										<section class="box no-box">
 											<header>
@@ -46,7 +46,7 @@ class HallMan extends React.Component
 											</footer> */}
 										</section>
 									</div>
-								</div>
+								{/* </div>
 							</section>
 
 						</div>
@@ -55,8 +55,8 @@ class HallMan extends React.Component
 						<div class="col-12">
 
 							<section class="container">
-								<div class="row">
-									<div class="col-6 col-12-small flexDown">
+								<div class="row"> */}
+									<div class="p-0 pb-3 p-sm-3 col-sm-6 col-12 flexDown">
 											<a href="#" class="image featuring"><img src="./web/homepage/tutor_photo/Naeem.JPEG" alt="" /></a>
 										<section class="box no-box">
 											<header>
@@ -72,13 +72,13 @@ class HallMan extends React.Component
 											</footer> */}
 										</section>
 									</div>
-									<div class="col-6 col-12-small flexDown">
+									{/* <div class="p-0 pb-3 p-sm-3 col-sm-6 col-12 flexDown">
 											<a href="#" class="image featuring"><img src="./web/homepage/tutor_photo/Julie.JPEG" alt="" /></a>
 										<section class="box no-box">
 											<header>
 												<h3>Julie YOU</h3>
 												<p>3 - 4 / F </p>
-											</header>
+											</header> */}
 											
 											{/* <footer>
 												<ul class="actions">
@@ -86,9 +86,9 @@ class HallMan extends React.Component
 													<li><a href="#" class="button alt icon fa-comment">33 comments</a></li>
 												</ul>
 											</footer> */}
-										</section>
-									</div>
-								</div>
+										{/* </section>
+									</div> */}
+								{/* </div>
 							</section>
 
 						</div>
@@ -97,8 +97,8 @@ class HallMan extends React.Component
 						<div class="col-12">
 
 							<section>
-								<div class="row">
-									<div class="col-6 col-12-small flexDown">
+								<div class="row"> */}
+									<div class="p-0 pb-3 p-sm-3 col-sm-6 col-12 flexDown">
 											<a href="#" class="image featuring"><img src="./web/homepage/tutor_photo/jiwon.JPG" alt="" /></a>
 										<section className="box no-box">
 											<header>
@@ -113,7 +113,7 @@ class HallMan extends React.Component
 											</footer> */}
 										</section>
 									</div>
-									<div class="col-6 col-12-small flexDown">
+									<div class="p-0 pb-3 p-sm-3 col-sm-6 col-12 flexDown">
 											<a href="#" class="image featuring "><img  src="./web/homepage/tutor_photo/victor.JPG" alt="" /></a>
 										<section class="box no-box">
 											<header>
@@ -127,7 +127,7 @@ class HallMan extends React.Component
 											</footer> */}
 										</section>
 									</div>
-								</div>
+								{/* </div>
 							</section>
 
 						</div>
@@ -139,8 +139,8 @@ class HallMan extends React.Component
 						<div class="col-12">
 
 							<section>
-								<div class="row">
-									<div class="col-6 col-12-small flexDown">
+								<div class="row"> */}
+									<div class="p-0 pb-3 p-sm-3 col-sm-6 col-12 flexDown">
 											<a href="#" class="image featuring"><img src="./web/homepage/tutor_photo/Chriss.JPEG" alt="" /></a>
 										<section className="box no-box">
 											<header>
@@ -155,7 +155,7 @@ class HallMan extends React.Component
 											</footer> */}
 										</section>
 									</div>
-									<div class="col-6 col-12-small flexDown">
+									<div class="p-0 pb-3 p-sm-3 col-sm-6 col-12 flexDown">
 											<a href="#" class="image featuring "><img  src="./web/homepage/tutor_photo/CK.JPG" alt="" /></a>
 										<section class="box no-box">
 											<header>
@@ -169,7 +169,7 @@ class HallMan extends React.Component
 											</footer> */}
 										</section>
 									</div>
-								</div>
+								{/* </div>
 							</section>
 
 						</div>
@@ -180,8 +180,8 @@ class HallMan extends React.Component
 						<div class="col-12">
 
 							<section>
-								<div class="row">
-									<div class="col-6 col-12-small flexDown">
+								<div class="row"> */}
+									<div class="p-0 pb-3 p-sm-3 col-sm-6 col-12 flexDown">
 											<a href="#" class="image featuring"><img src="./web/homepage/tutor_photo/Suzy.JPG" alt="" /></a>
 										<section className="box no-box">
 											<header>
