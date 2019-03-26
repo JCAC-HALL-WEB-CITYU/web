@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom';
 import './../../style/main.css';
 import './HallManagement.css';
 import Cover from '../../components/cover/cover';
-import Header from '../../components/header/header';
+import Header from '../../components/header/header.jsx';
 import HallMan from '../../components/hallMan/hallMan';
 import Footer from '../../components/footer/footer';
 

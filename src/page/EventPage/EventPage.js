@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom';
 import './../../style/main.css';
 import './EventPage.css';
 import Cover from '../../components/cover/cover';
-import Header from '../../components/header/header';
+import Header from '../../components/header/header.jsx';
 import TwoCard from '../../components/twoCard/TwoCard';
 import Footer from '../../components/footer/footer';
 

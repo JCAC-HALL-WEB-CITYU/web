@@ -1,6 +1,9 @@
-h2{
+.fitWidth h2{
 	font-family: 'Nixie One', cursive;
+	font-size:24px !important;
+	font-weight: lighter !important;
 }
+.fitWidth h2 
 #ABCCulture{
 	font-family: "Nixie One" , cursive;
 	background:white !important;

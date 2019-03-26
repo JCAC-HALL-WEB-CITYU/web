@@ -53,3 +53,6 @@
 	background-color: white;
 	color: black !important;
 }
+.container{
+	max-width:1000px !important;
+}

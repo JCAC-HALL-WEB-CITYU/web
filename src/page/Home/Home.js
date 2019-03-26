@@ -5,7 +5,7 @@ import './style.css';
 import Cover from '../../components/cover/cover';
 import Part from '../../components/parts/parts';
 import SectionCards from '../../components/sectionCards/sectionCards';
-import Header from '../../components/header/header';
+import Header from '../../components/header/header.jsx';
 import Footer from '../../components/footer/footer';
 
 class Home extends Component
@@ -17,33 +17,33 @@ class Home extends Component
 		return (
 			<div>
 				<div className="homepage">
-				<div id="page-wrapper">
+					<div id="page-wrapper">
 
-					<section id="header">
+						<section id="header">
 
-				<Header></Header>
-						<Cover coverText={"AQUATIC MEET"} imgSrc={"./web/homepage/AQUATIC.png"} dontRenderButton={true}></Cover>
-						{/* <div id="banner2"> */}
-						{/* <div className="w-100">
+							<Header></Header>
+							<Cover coverText={"AQUATIC MEET"} imgSrc={"./web/homepage/AQUATIC.png"} dontRenderButton={true}></Cover>
+							{/* <div id="banner2"> */}
+							{/* <div className="w-100">
 							<img className="" src="/web/homepage/AQUATIC.png"/>
 							<div className="overlay w-100 h-100"></div> */}
-						{/* <img className="overlay" src="/web/homepage/1x/Artboard 1.png"/> */}
-						{/* <div>
+							{/* <img className="overlay" src="/web/homepage/1x/Artboard 1.png"/> */}
+							{/* <div>
 								
 							</div></div> */}
-						{/* </div> */}
+							{/* </div> */}
 
 
 
-						<Part></Part>
+							<Part></Part>
 
-					</section>
+						</section>
 
-					<section id="main">
-						<SectionCards></SectionCards>
+						<section id="main">
+							<SectionCards content={this.props.content}></SectionCards>
 
 
-					</section>
+						</section>
 
 						{/* <div className="col-12">
 
@@ -88,8 +88,8 @@ class Home extends Component
 							</section> 
 
 						 </div> */}
-					<Footer></Footer>
-				</div></div>
+						<Footer></Footer>
+					</div></div>
 			</div>
 		)
 	}
