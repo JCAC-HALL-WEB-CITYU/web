@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import './../../style/main.css';
-import './style.css';
-import Cover from '../../components/cover/cover';
+import './style.scss';
+// import Cover from '../../components/cover/carousel';
 import Part from '../../components/parts/parts';
 import SectionCards from '../../components/sectionCards/sectionCards';
 import Header from '../../components/header/header.jsx';
 import Footer from '../../components/footer/footer';
+import Carousel from '../../components/carousel/carousel';
 
 class Home extends Component
 {
@@ -15,14 +16,14 @@ class Home extends Component
 	render()
 	{
 		return (
-			<div>
+			<div className="HomePage">
 				<div className="homepage">
 					<div id="page-wrapper">
 
 						<section id="header">
 
 							<Header></Header>
-							<Cover coverText={"AQUATIC MEET"} imgSrc={"./web/homepage/AQUATIC.png"} dontRenderButton={true}></Cover>
+							<Carousel content={this.props.content} ></Carousel>
 							{/* <div id="banner2"> */}
 							{/* <div className="w-100">
 							<img className="" src="/web/homepage/AQUATIC.png"/>

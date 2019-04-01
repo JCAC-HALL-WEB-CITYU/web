@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import "./sectionCards.css";
 import MyCard from "../card/card";
 
@@ -29,7 +30,7 @@ class SectionCards extends React.Component
 					<header className="major">
 						<h2>NEWS</h2>
 					</header>
-					<div className="row">
+					<div className="row justify-content-between">
 						{content}
 					</div>
 				</section>
@@ -39,7 +40,7 @@ class SectionCards extends React.Component
 			</div>
 			<footer className="container">
 				<ul className="actions">
-					<li><a id="ABCCulture" href="#" className="button large">MORE NEWS</a></li>
+					<li><Link id="ABCCulture" to="/event" className="button large">MORE NEWS</Link></li>
 					{/* <li><a href="#" className="button alt large">Learn More</a></li> */}
 				</ul>
 			</footer>

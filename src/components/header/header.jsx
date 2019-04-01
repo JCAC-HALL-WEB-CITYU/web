@@ -37,7 +37,7 @@ class Header extends React.Component
 	render()
 	{
 		return (
-			<div >
+			<div className="header" >
 				<img className="headerLogo" src="./web/homepage/jcaclogo.jpg" />
 				<h1><Link class=" href" to="/">JCAC</Link></h1>
 				<h3 className="nixie">Jockey Club Academy Hall</h3>
@@ -75,6 +75,9 @@ class Header extends React.Component
 							</NavItem>
 							<NavItem>
 								<Link className="navBarObjects hoverPink roundedBorder" to="/event/">Achievements</Link>
+							</NavItem>
+							<NavItem>
+								<Link className="navBarObjects hoverPink roundedBorder" to="/facility/">Facility</Link>
 							</NavItem>
 							<NavItem>
 								<Link className="navBarObjects hoverPink roundedBorder" to="/event/">Hall Life</Link>

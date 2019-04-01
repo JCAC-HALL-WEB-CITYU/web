@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "./parts.css";
+import { Link } from 'react-router-dom';
+import "./parts.scss";
 
 
 class Part extends React.Component
@@ -41,7 +42,8 @@ class Part extends React.Component
 							</div>
 							<footer>
 								<ul className="actions">
-									<li><a id="ABCCulture" href="#" className="button large">About ABC Culture</a></li>
+									<li><Link id="ABCCulture" to="/about#ABC" className="button large">About ABC Culture</Link>
+									</li>
 									{/* <li><a href="#" className="button alt large">Learn More</a></li> */}
 								</ul>
 							</footer>

@@ -1,0 +1,152 @@
+.whiteBG2 {
+	background-color: #f7f7f7;
+}
+
+.whiteBG2>.row {
+	background-color: white;
+}
+
+.margin-top {
+	margin-top: 10px;
+}
+
+
+.featuring {
+	max-height: 300px;
+	overflow: hidden;
+}
+
+.featuring>img {
+
+	height: 100%;
+}
+
+.no-box {
+	/* padding:0 !important; */
+}
+
+.tempImageFix {
+	width: 100%;
+}
+
+.tempImageFix>img {
+	height: 300px !important;
+	width: auto !important;
+
+}
+
+.flexDown {
+	display: flex;
+	flex-direction: column;
+}
+
+.flexDown>section {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.flexDown>section>footer {
+	margin-top: auto;
+}
+
+.HallMan .featuring {
+	max-height: 600px;
+}
+
+.HallMan {
+	#RTimg {
+		img{
+			object-fit: cover;
+			width:40vw;
+			height: 40vw;
+			padding:0;
+		}
+	}
+	h3{
+		padding:0;
+		// font-size:2rem !important;
+		padding-bottom:20px;
+		padding-top:5px;
+	}
+	h2 {
+		color: #c6335c;
+		font-size: 20rem;
+		font-family: "Nixie";
+		letter-spacing: 2px;
+		text-align: center;
+	}
+
+	.parentP {
+		background-color: #c6335c;
+		max-height: 80vw;
+		max-width: 80vw;
+		height: 70vw;
+		width: 70vw;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+		border-radius: 2000px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		p{
+			// width:20rem;
+			max-width:60vw;
+			font-size:3vw !important;
+			margin-bottom:0;
+			color:white;
+		}
+	}
+
+	img {
+		object-fit: cover;
+		max-height: 80vw;
+		max-width: 80vw;
+		height: 70vw;
+		width: 70vw;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 2000px;
+		padding: 0;
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.HallMan{
+
+		#RTimg {
+			img{
+			width:150px;
+			height:150px;
+			}
+		}
+		.parentP,img{
+			max-width: 300px;
+			max-height: 300px;
+			width:250px;
+			height:250px;
+		p{
+			width:250px;
+			font-size:0.9rem !important;
+			margin-bottom:0;
+
+		}
+		}
+	}
+	
+}
+
+
+@media only screen and (max-width:425px){
+	.HallMan{
+
+		// #RTimg {
+		// 	img{
+		// 	width:150px;
+		// 	height:150px;
+		// 	}
+		// }
+	}
+}

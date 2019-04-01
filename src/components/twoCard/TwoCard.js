@@ -1,15 +1,33 @@
 import React, { Component } from "react";
 import "./TwoCard.css";
+import EventCard from "../eventCard/eventCard";
 
 class TwoCard extends React.Component
 {
 	render()
 	{
+
+		let content;
+		if (this.props.content){
+			let contentReveresed = this.props.content.reverse()
+			content = contentReveresed.map(
+				(d) => <EventCard 
+					title={ d.title}
+					para= {d.para}
+					date ={d.date}
+					splashImage={ d.splashImage}
+					link ={d.link}
+				>
+				</EventCard>
+			);
+
+		}
+
 		return (
 
 			<div className="whiteBG2 box">
 				<div className="container ">
-					<div className="row margin-top">
+					{/* <div className="row margin-top">
 						<div className="col-12 p-0">
 
 							<section >
@@ -25,7 +43,7 @@ class TwoCard extends React.Component
 											<footer>
 												<ul className="actions">
 													<li><a target="_blank" href="https://mp.weixin.qq.com/s/7MDp0WnnCVX_Ux-SBhepLg" className="button icon fa-file-text">Continue Reading</a></li>
-													{/* <li><a href="#" className="button alt icon fa-comment">33 comments</a></li> */}
+													 <li><a href="#" className="button alt icon fa-comment">33 comments</a></li> 
 												</ul>
 											</footer>
 										</section>
@@ -41,7 +59,7 @@ class TwoCard extends React.Component
 											<footer>
 												<ul className="actions">
 													<li><a target="_blank" href="https://mp.weixin.qq.com/s/ZJDl2b36pg_GmotgTJggLQ" className="button icon fa-file-text">Continue Reading</a></li>
-													{/* <li><a href="#" className="button alt icon fa-comment">33 comments</a></li> */}
+													<li><a href="#" className="button alt icon fa-comment">33 comments</a></li> 
 												</ul>
 											</footer>
 										</section>
@@ -50,13 +68,13 @@ class TwoCard extends React.Component
 							</section>
 
 						</div>
-					</div>
+					</div> */}
 					<div className="row margin-top">
-						<div className="col-12 p-0">
+						{/* <div className="col-12 p-0"> */}
 
-							<section>
-								<div className="row">
-									<div className="col-sm-6 p-0 pr-sm-2 pb-sm-2 col-12 flexDown">
+							{/* <section>
+								<div className="row"> */}
+									{/* <div className="col-sm-6 p-0 pr-sm-2 pb-sm-2 col-12 flexDown">
 											<a href="#" className="image featuring"><img src="./web/homepage/SOCCER.png" alt="" /></a>
 										<section className="box no-box">
 											<header>
@@ -67,12 +85,12 @@ class TwoCard extends React.Component
 											<footer>
 												<ul className="actions">
 													<li><a target="_blank" href="https://mp.weixin.qq.com/s/dOjWc5193zvvp6E324aPFg" className="button icon fa-file-text">Continue Reading</a></li>
-													{/* <li><a href="#" className="button alt icon fa-comment">33 comments</a></li> */}
+													 <li><a href="#" className="button alt icon fa-comment">33 comments</a></li> 
 												</ul>
 											</footer>
 										</section>
-									</div>
-									<div className="col-sm-6 p-0 pl-sm-2 pb-sm-2 col-12 flexDown">
+									</div> */}
+									{/* <div className="col-sm-6 p-0 pl-sm-2 pb-sm-2 col-12 flexDown">
 											<a href="#" className="image featuring tempImageFix"><img  src="./web/homepage/AQUATIC.png" alt="" /></a>
 										<section className="box no-box">
 											<header>
@@ -83,15 +101,16 @@ class TwoCard extends React.Component
 											<footer>
 												<ul className="actions">
 													<li><a target="_blank" href="https://mp.weixin.qq.com/s/ZdTJF2iJLlwYksYC-G8bww" className="button icon fa-file-text">Continue Reading</a></li>
-													{/* <li><a href="#" className="button alt icon fa-comment">33 comments</a></li> */}
+													 <li><a href="#" className="button alt icon fa-comment">33 comments</a></li> 
 												</ul>
 											</footer>
 										</section>
-									</div>
-								</div>
-							</section>
+									</div> */}
+									{content}
+								{/* </div>
+							</section> */}
 
-						</div>
+						{/* </div> */}
 					</div>
 				</div>
 			</div>

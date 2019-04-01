@@ -1,0 +1,154 @@
+/* @import url(''); */
+@font-face{
+	font-family : "Futura Medium";
+	src:url("../../fonts/futura/futura medium bt.ttf") format('truetype');
+}
+#carousel{
+.carousel-control-prev, .carousel-control-next,.carousel-indicators {
+	z-index:100000000 !important;
+	position: absolute !important;
+
+    height: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.landing {
+	display: inline-block;
+	margin:auto;
+	word-spacing: 30px;
+	z-index: 10;
+	width: 100%;
+	position: relative;
+	object-fit: fill;
+}
+.container{
+	max-width: 1280px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	max-height:450px;
+
+}
+
+.fitContent{
+	display:flex;
+	flex-direction:column;
+	position: relative;
+	overflow: hidden;
+	margin:auto;
+	max-height:450px;
+}
+.blur{
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	position: absolute;
+	width:100%;
+	z-index: 0;
+	max-width: 100%;
+	top:-15%;
+	object-fit: fill;
+	// object-fit: cover;Z
+
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+width:100%;
+	z-index: 11;
+	;
+	height: 100%;
+	background: linear-gradient(to right, rgba(192,52,247,0.78) 0%, rgba(192,52,247,1) 0%, rgba(159,50,234,0) 28%, rgba(109,46,213,0) 71%, rgba(75,44,199,1) 100%);
+
+	/* background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(12,41,65,0) 15%,rgba(41,137,216,0) 50%,rgba(16,55,86,0) 80%,rgba(0,0,0,1) 100%); */
+
+}
+
+
+.exploreMoreButton{
+	background-color: transparent;
+	position: absolute;
+	font-weight: bold;
+	bottom: 20px;
+	right: 20px;
+	border: solid white 1px;
+	z-index: 100;
+	transition: ease 0.5s;
+	border-radius:5px;
+	padding:10px 10px;
+	color:white !important;
+}
+.exploreMoreButton:hover{
+
+	background-color: white;
+	color: #d52349 !important;
+	font-weight: bold;
+	text-shadow: 0px 0px 2px lightgrey;
+}
+
+.leftBottomSide{
+	position: absolute;
+	bottom:30px;
+	left:50px;
+	font-weight: black;
+	font-size: 50px !important;
+	z-index: 11;
+	font-weight: small;
+	color:white !important;
+	text-align: right;
+	font-family: "Futura Medium"
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 768px) {
+	
+	#carousel{
+
+		.container,.fitContent{
+			max-height:320px;
+		}
+		.leftBottomSide {
+			font-size:40px !important;
+			left:60px;
+		}
+	}
+		
+	
+}
+@media only screen and (max-width: 600px) {
+	div > .leftBottomSide{
+		font-size: 30px !important;
+	}
+	#carousel{
+		.container,.fitContent{
+			max-height:170px;
+		}
+
+		.leftBottomSide{
+			font-size:25px !important;
+			bottom:10px;
+			left:60px;
+		}
+		.exploreMoreButton{
+			font-size:15px;
+			right:30px;
+			padding:5px;
+		}
+	}
+		
+	
+}
+
+
+// @media only screen and (max-width: 1000px) {
+// 	#carousel{
+
+// 	.container,.fitContent{
+// 		max-height:170px;
+// 	}
+// }
+	
+// }

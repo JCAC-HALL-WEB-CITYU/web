@@ -7,7 +7,7 @@ class MyCard extends React.Component
 	render()
 	{
 		return (
-			<div className="noPadding p-sm-2 p-0 pb-3 col-lg-4 col-md-6 col-12">
+			<div className="cardObj noPadding p-sm-2 p-0 pb-3 col-lg-4 col-md-6 col-12">
 				<a href="#" id="cardsImage" className="image featuring2">
 					<img src={this.props.splashImage} alt="" />
 				</a>

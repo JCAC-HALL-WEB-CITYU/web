@@ -4,9 +4,9 @@ import './../../style/main.css';
 import './HallManagement.css';
 import Cover from '../../components/cover/cover';
 import Header from '../../components/header/header.jsx';
-import HallMan from '../../components/hallMan/hallMan';
+import HallMan from '../../components/hallMan/hallMan.jsx';
 import Footer from '../../components/footer/footer';
-
+	
 class HallManagement extends Component
 {
 

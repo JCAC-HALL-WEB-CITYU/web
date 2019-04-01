@@ -10,6 +10,11 @@
 	align-items: center;
 	background:#0F0F0F;
 }
+
+.major{
+	font-family: "Futura" !important;
+	font-weight: bolder !important;
+}
 .featuring2 > img{
 	width:100%;
 	height:auto;

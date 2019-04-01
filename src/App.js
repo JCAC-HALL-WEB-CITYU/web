@@ -28,25 +28,41 @@ firebase.initializeApp(config);
 
 class App extends Component
 {
+    constructor(){
+        super();
+        this.state = {
+            content:[],
+            contentForEvent:[]
+        }
+        let database = firebase.database();
+        database.ref('Content').once('value').then(
+            (snapshot)=>{
+                this.setState(snapshot.val());
+            }
+        )
+    }
+
     render()
     {
-        let database = firebase.database();
+        
+        
+
         let content = [
 			{
 				title: "M.A.C NIGHT",
-				shortPara: "To embrace the robust Residential Year 2018/19, Student Residence Office (SRO) is pleased to join hands with Chair Prof. Ben LEUNG, Residence Master (RM)...",
+				shortPara: "To embrace the robust Residential Year 2018/19, Student Residence Office (SRO) is pleased to join hands with Chair Prof. Ben LEUNG, Residence Master ...",
 				splashImage: "./web/homepage/MAC.png",
 				link: "https://mp.weixin.qq.com/s/ZJDl2b36pg_GmotgTJggLQ"
             },
             {
                 title: "PEK SOCCER",
-				shortPara: "We, JCAC Soccer Team, won Hall 11 Soccer Team with a final score of 15-0! That’s true, it is not a typo, it is 15:0! Our team players have done an excellent job...",
+				shortPara: "We, JCAC Soccer Team, won Hall 11 Soccer Team with a final score of 15-0! That’s true, it is not a typo, it is 15:0! Our team players have done an excellent job ...",
 				splashImage: "./web/homepage/SOCCER.png",
 				link: "https://mp.weixin.qq.com/s/dOjWc5193zvvp6E324aPFg"
             },
             {
                 title: "PEK ATHLETIC",
-				shortPara: "CityU Athletic Meet was approaching. It was a perfect time to show our great enthusiasm fighting for hall 4. On 14th October, we gathered at the joint sport ...",
+				shortPara: "CityU Athletic Meet was approaching. It was a perfect time to show our great enthusiasm fighting for hall 4. On 14th October, we gathered at the  ...",
 				splashImage: "./web/homepage/ATHLETIC.png",
 				link: "https://mp.weixin.qq.com/s/dOjWc5193zvvp6E324aPFg"
             }
@@ -56,7 +72,7 @@ class App extends Component
             {
                 title: "PEK ATHLETIC",
                 para: "CityU Athletic Meet was approaching. It was a perfect time to show our great enthusiasm fighting for hall 4. On 14th October, we gathered at the joint sport ...",
-                date:"",
+                date:"1 December",
 				splashImage: "./web/homepage/ATHLETIC.png",
 				link: "https://mp.weixin.qq.com/s/dOjWc5193zvvp6E324aPFg"
             }
@@ -78,7 +94,7 @@ class App extends Component
                         <Route 
                             exact={true} 
                             path={'/'} 
-                            component={() => <Home content = {content}></Home>}
+                            component={() => <Home content = {this.state.content}></Home>}
                             />
                         <Route 
                             exact={true} 
@@ -87,7 +103,7 @@ class App extends Component
                         <Route 
                             exact={true} 
                             path= {'/Event'} 
-                            component={() => <EventPage content = {contentForEvent}></EventPage>} />
+                            component={() => <EventPage content = {this.state.contentForEvent}></EventPage>} />
                         <Route 
                             exact={true} 
                             path={'/hall_management'} 

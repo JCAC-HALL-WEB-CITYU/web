@@ -66,7 +66,8 @@ class About extends Component
 
 			</p>
 									</section>
-									<section>
+									<section >
+										<a id="ABC"></a>
 										<header className="text-left">
 											<h2>ABC CULTURE</h2>
 										</header>
