@@ -9,8 +9,7 @@ class TwoCard extends React.Component
 
 		let content;
 		if (this.props.content){
-			let contentReveresed = this.props.content.reverse()
-			content = contentReveresed.map(
+			content = this.props.content.map(
 				(d) => <EventCard 
 					title={ d.title}
 					para= {d.para}

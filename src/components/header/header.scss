@@ -7,6 +7,26 @@
 		font-family: "Futura";
 	}
 }
+.dropdown-item{
+	font-weight: bold !important;
+}
+.dropdown-item:active{
+	background: #c6335c !important;
+}
+// .showWhenHover{
+// 	position: absolute;
+// 	visibility: hidden;
+// 	border-radius: 10px;
+// 	width: 240px;
+// 	left:-120px;
+// }
+// .navBarObjects:hover + .showWhenHover, .showWhenHover:hover{
+// 	background:white;
+// 	height:40px;
+	 
+// 	box-shadow: 0px 0px 10px black;
+// 	visibility: visible;
+// }
 .leftBottomSide{
 	text-shadow: 1px 1px 1px black;
 }
@@ -41,11 +61,11 @@
 	font-weight: bold;
 }
 .navBarObjects{
+	position: relative;
 	transition:background-color ease 0.5s ;
-	transition:color ease 0.1s ;
 	padding-left: 1rem !important;
 	padding-right:1rem !important;
-	transition:padding ease 0.75s;
+	transition:padding ease 0.3s, color ease 1s, border ease 0.5s;
 	color:black;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -54,6 +74,7 @@
 .nav-item{
 	padding-top: 1.5rem;
 	padding-bottom: 1rem;
+	position: relative;
 }
 
 .nixie{
@@ -61,11 +82,13 @@
 }
 
 .hoverPink:hover{
-	background-color: #c6335c;
-	color:white !important;
+	// background-color: #c6335c;
+	border: #c6335c solid 1px;
+	// background: transparent ;
+	color:#c6335c !important;
 	font-weight: bolder;
-	padding-left: 1.5rem !important;
-	padding-right:1.5rem !important;
+	padding-left: 1.2rem !important;
+	padding-right:1.2rem !important;
 
 	text-decoration: none;
 }

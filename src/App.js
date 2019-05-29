@@ -37,7 +37,9 @@ class App extends Component
         let database = firebase.database();
         database.ref('Content').once('value').then(
             (snapshot)=>{
-                this.setState(snapshot.val());
+                let snapshotDat = snapshot.val()
+                snapshotDat.contentForEvent.reverse();
+                this.setState(snapshotDat);
             }
         )
     }

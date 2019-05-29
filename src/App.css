@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nixie+One');
 @import url('https://fonts.googleapis.com/css?family=Tinos');
 
+
+p,.info{
+  font-family: "Arial";
+}
 .App {
   text-align: center;
 }
