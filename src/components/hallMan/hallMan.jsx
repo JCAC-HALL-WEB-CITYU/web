@@ -28,7 +28,7 @@ class HallMan extends React.Component
 								<div className="row" id="RTimg">
 									<div className="col-md-6 col-12 p-0 m-0 my-auto d-flex justify-content-md-start justify-content-center flex-row-reverse pr-1 ">
 									
-										<img className="RTimg" src="./web/homepage/tutor_photo/Eugene.JPG" alt="" />
+										<img className="RTimg" src="./web/homepage/tutor_photo/Eugene.jpg" alt="" />
 										<div className="RTinfo">
 											<div className="w-100"><div className="triangle"></div><div className="title"><span>101B</span> / Eugene</div></div>
 											<div className="info">Hall Book, PEK Soccer Competition, SR Mid-Autumn</div>
@@ -36,7 +36,7 @@ class HallMan extends React.Component
 									</div>
 									<div className="col-md-6 col-12 p-0 m-0 my-auto d-flex justify-content-md-start justify-content-center pr-1 goDown">
 									
-										<img className="RTimg" src="./web/homepage/tutor_photo/Alex.JPG" alt="" />
+										<img className="RTimg" src="./web/homepage/tutor_photo/Alex.jpg" alt="" />
 										<div className="RTinfo RTinfoR">
 											<div className="w-100 ">
 											
@@ -56,7 +56,7 @@ class HallMan extends React.Component
 									</div>
 									<div className="col-md-6 col-12 p-0 m-0 my-auto d-flex justify-content-md-start justify-content-center pr-1 goDown">
 									
-										<img className="RTimg" src="./web/homepage/tutor_photo/Andrew.JPG" alt="" />
+										<img className="RTimg" src="./web/homepage/tutor_photo/Andrew.jpg" alt="" />
 										<div className="RTinfo RTinfoR">
 											<div className="w-100 ">
 											
@@ -76,7 +76,7 @@ class HallMan extends React.Component
 									</div>
 									<div className="col-md-6 col-12 p-0 m-0 my-auto d-flex justify-content-md-start justify-content-center pr-1 goDown">
 									
-										<img className="RTimg" src="./web/homepage/tutor_photo/Chriss.JPG" alt="" />
+										<img className="RTimg" src="./web/homepage/tutor_photo/Chriss.jpg" alt="" />
 										<div className="RTinfo RTinfoR">
 											<div className="w-100 ">
 											
@@ -96,7 +96,7 @@ class HallMan extends React.Component
 									</div>
 									<div className="col-md-6 col-12 p-0 m-0 my-auto d-flex justify-content-md-start justify-content-center pr-1 goDown">
 									
-										<img className="RTimg" src="./web/homepage/tutor_photo/SzeSze.JPG" alt="" />
+										<img className="RTimg" src="./web/homepage/tutor_photo/SzeSze.jpg" alt="" />
 										<div className="RTinfo RTinfoR">
 											<div className="w-100 ">
 											
