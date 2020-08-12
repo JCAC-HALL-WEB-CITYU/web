@@ -75,7 +75,7 @@ class Header extends React.Component
 								<a className="navBarObjects hoverPink  dropdown-toggle roundedBorder" data-toggle="dropdown" href="#" role="button" to="/event/">Events</a>
 								<div class="dropdown-menu dropdownMenu">
 									<Link class="dropdown-item" to="/event/">Events</Link>
-									<a class="dropdown-item" href="./web/YearBook/2019/index.html" target="_blank">Hall Year Book 2019</a>
+									<a class="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
 								</div>
 							</NavItem>
 							<NavItem>
