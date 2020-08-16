@@ -220,7 +220,7 @@ class HallMan extends React.Component
 						</div>
 
 						<div className="col-lg-8 col-12">
-							<h2 className="col-12">RESIDENCE TUTOR</h2>
+							<h2 className="col-12">RESIDENCE TUTORS</h2>
 							<div className="col-12 container">
 								<div className="row" id="RTimg">
                                     <div className="col-md-6 col-12 p-0 m-0 my-auto d-flex justify-content-md-start justify-content-center flex-row-reverse pr-1 ">

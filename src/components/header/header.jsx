@@ -72,30 +72,37 @@ class Header extends React.Component
 								<Link className="navBarObjects hoverPink roundedBorder" to="/hall_management">Hall Management</Link>
 							</NavItem>
 							<NavItem>
-								<a className="navBarObjects hoverPink  dropdown-toggle roundedBorder" data-toggle="dropdown" href="#" role="button" to="/event/">Events</a>
+								<Link className="navBarObjects hoverPink  roundedBorder" to="/event/">Events</Link>
+								{/* <a className="navBarObjects hoverPink  dropdown-toggle roundedBorder" data-toggle="dropdown" href="#" role="button" to="/event/">Events</a>
 								<div class="dropdown-menu dropdownMenu">
 									<Link class="dropdown-item" to="/event/">Events</Link>
+									<a class="dropdown-item" href="https://jcacweb.github.io/2020YearBook/" target="_blank">Hall Year Book 2020</a>
+									<a class="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
+								</div> */}
+							</NavItem>
+							<NavItem>
+								<a className="navBarObjects hoverPink  dropdown-toggle roundedBorder" data-toggle="dropdown" href="#" role="button" to="/event/">Year Book</a>
+								<div class="dropdown-menu dropdownMenu">
 									<a class="dropdown-item" href="https://jcacweb.github.io/2020YearBook/" target="_blank">Hall Year Book 2020</a>
 									<a class="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
 								</div>
 							</NavItem>
 							{/* <NavItem>
 								<Link className="navBarObjects hoverPink roundedBorder" to="/event/">Achievements</Link>
-							</NavItem>
+							</NavItem> */}
+							{/* <NavItem>
+								<Link className="navBarObjects hoverPink roundedBorder" to="/event/">Hall Life</Link>
+							</NavItem> */}
 							<NavItem>
 								<Link className="navBarObjects hoverPink roundedBorder" to="/facility/">Facility</Link>
 							</NavItem>
 							<NavItem>
-								<Link className="navBarObjects hoverPink roundedBorder" to="/event/">Hall Life</Link>
-							</NavItem> */}
-							<NavItem>
-								<a className="navBarObjects hoverPink roundedBorder icon fa-facebook" target="_blank" href="https://www.facebook.com/jockeyclubacademyh"><span className="label">Facebook</span></a>
+								<a className="navBarObjects hoverPink roundedBorder icon fa-facebook" target="_blank" href="https://www.facebook.com/JockeyClubAcademyHall"><span className="label">Facebook</span></a>
 								<a className="navBarObjects hoverPink roundedBorder icon fa-instagram" target="_blank" href="https://www.instagram.com/jcac_hall4/"><span className="label">Instagram</span></a>
 								{/* <a className="navBarObjects hoverPink roundedBorder" to="/event/">Facebook</a> */}
 								{/* <a className="navBarObjects hoverPink roundedBorder" to="/event/">Instagram</a> */}
 								{/* <Link className="navBarObjects hoverPink roundedBorder" to="/event/">Hall Life</Link> */}
 							</NavItem>
-
 
 						</Nav>
 					</Collapse>

@@ -60,7 +60,7 @@
 			font-family:"Arial";
 			transition: 0.5s ease-out;
 			// visibility: hidden;
-			opacity: 0;
+			opacity: 1;
 			display:flex;
 			justify-content: center;
 			flex-direction: column;
@@ -107,8 +107,9 @@
 			.info{
 				line-height:18px;
 
-				font-size:10px;
+				font-size: 13px;
 				padding-right:10px;
+				padding-top:3px;
 			}
 			.infoR{
 				padding-left:10px;
@@ -120,11 +121,11 @@
 			align-items: flex-start;
 		}
 
-		.RTimg:hover ~ .RTinfo,.RTimg:hover{
-			visibility: visible;
-			opacity: 1;
-			// border:1px solid black;
-		}
+		// .RTimg:hover ~ .RTinfo,.RTimg:hover{
+		// 	visibility: visible;
+		// 	opacity: 1;
+		// 	// border:1px solid black;
+		// }
 		img {
 			object-fit: cover;
 			width: 40vw;
@@ -230,7 +231,7 @@
 
 			p {
 				width: 200px;
-				font-size: 0.9rem !important;
+				font-size: 12.5px !important;
 				margin-bottom: 0;
 
 			}

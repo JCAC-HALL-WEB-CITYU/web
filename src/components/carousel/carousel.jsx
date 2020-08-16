@@ -120,6 +120,29 @@ class Carousel extends React.Component
 
 
 						</div>
+						<div class="carousel-item">
+
+							<div className="fitContent" >
+								<div className="overlay"></div>
+								<img className="landing blur" src={this.props.content[3].splashImage} />
+								<div className="container">
+									<h1 className="leftBottomSide">
+										{splitedText[3].map(function (o)
+										{
+											return <div >{o}</div>;
+										})}
+									</h1>
+									<img className="landing" src={this.props.content[3].splashImage} />
+									{this.props.content[3].link && <a href={this.props.content[3].link} target="_blank" className="exploreMoreButton">
+										Explore More
+				</a>}
+								</div>
+							</div>
+
+						
+
+
+						</div>
 					</div>
 					<a class="carousel-control-prev"  role="button" data-slide="prev" onClick={this.clickerPrev}>
 						<span class="carousel-control-prev-icon" aria-hidden="true"></span>

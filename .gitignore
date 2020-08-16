@@ -11,6 +11,7 @@
 # production
 /build
 /build\ copy
+/docs\ 2
 
 # misc
 .DS_Store

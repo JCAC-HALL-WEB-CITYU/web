@@ -10,6 +10,7 @@ import About from './page/About/About';
 import EventPage from './page/EventPage/EventPage';
 import HallManagement from './page/HallManagement/HallManagement';
 import { Helmet } from 'react-helmet';
+import Facility from './page/Facility/facility';
 
 var firebase = require("firebase/app");
 
@@ -35,7 +36,7 @@ class App extends Component
             contentForEvent:[]
         }
         let database = firebase.database();
-        database.ref('Content').once('value').then(
+        database.ref('Content2').once('value').then(
             (snapshot)=>{
                 let snapshotDat = snapshot.val()
                 snapshotDat.contentForEvent.reverse();
@@ -110,6 +111,11 @@ class App extends Component
                             exact={true} 
                             path={'/hall_management'} 
                             component={HallManagement}
+                           />
+                        <Route 
+                            exact={true} 
+                            path={'/facility'} 
+                            component={Facility}
                            />
                     </Switch>
                 </div>

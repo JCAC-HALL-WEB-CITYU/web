@@ -30,7 +30,7 @@ class SectionCards extends React.Component
 					<header className="major">
 						<h2>NEWS</h2>
 					</header>
-					<div className="row justify-content-between">
+					<div className="row justify-content-center">
 						{content}
 					</div>
 				</section>

@@ -21,7 +21,7 @@ class HallManagement extends Component
 						<section id="header">
 
 							<Header></Header>
-							<Cover coverText={"HALL MANAGEMENT"} imgSrc={"./web/homepage/RT.jpeg"} dontRenderButton={false}></Cover>
+							<Cover coverText={"HALL MANAGEMENT"} imgSrc={"./web/hall_management/HallRT2020GroupPhoto.png"} dontRenderButton={false}></Cover>
 						</section>
 
 						<section id="main">
