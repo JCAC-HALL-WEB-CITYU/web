@@ -6,9 +6,9 @@ class MyCard extends React.Component {
     return (
       <div className="cardObj d-flex flex-column noPadding p-sm-2 p-0 pb-3 col-lg-4 col-md-6 col-12">
         <div className="d-flex flex-column">
-          <a href="#" id="cardsImage" className="image featuring2">
+          <div href="#" id="cardsImage" className="image featuring2">
             <img src={this.props.splashImage} alt="" />
-          </a>
+          </div>
           <section className="box whiteBG">
             <header>
               <h3>{this.props.title}</h3>

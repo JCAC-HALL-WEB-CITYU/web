@@ -18,7 +18,7 @@ class HallMan extends React.Component
 							<h3 className="col-12">Prof. Ben LEUNG</h3>
 							<div className="parentP">
 								<p>
-									Welcome to our JCAC (Jockey Club Academy Hall) big family of Academians! Here you will meet our fellow students with diverse background from different disciplines and countries. This is a good place for you to enlarge your social circle and make more friends. Enjoy your life here!
+									Welcome to our Jockey Club Academy Hall (JCAC) big family of Academians! Here you will meet our fellow residents with diverse background from different disciplines and countries. This is a good place for you to enlarge your social circle and make more friends. Enjoy your life here!
 												</p></div>
 						</div>
 
