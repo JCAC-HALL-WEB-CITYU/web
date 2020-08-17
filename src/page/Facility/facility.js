@@ -70,7 +70,7 @@ class Facility extends Component
 									</div>
 									</div>
 									<div className='container'>
-									<div className='row mt-2'>
+									<div className='row mt-2 ml-0 mr-0'>
 									{
 										this.props.content
 											.filter(
