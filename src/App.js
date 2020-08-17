@@ -33,7 +33,8 @@ class App extends Component
         super();
         this.state = {
             content:[],
-            contentForEvent:[]
+            contentForEvent:[],
+            facility: [],
         }
         let database = firebase.database();
         database.ref('Content2').once('value').then(
@@ -115,7 +116,7 @@ class App extends Component
                         <Route 
                             exact={true} 
                             path={'/facility'} 
-                            component={Facility}
+                            component={() => <Facility content = {this.state.facility} ></Facility>}
                            />
                     </Switch>
                 </div>

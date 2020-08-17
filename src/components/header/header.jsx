@@ -40,7 +40,7 @@ class Header extends React.Component
 		return (
 			<div className="header" >
 				<img className="headerLogo" src="./web/homepage/jcaclogo.jpg" />
-				<h1><Link class=" href" to="/">JCAC</Link></h1>
+				<h1><Link className=" href" to="/">JCAC</Link></h1>
 				<h3 className="nixie">Jockey Club Academy Hall</h3>
 				{/* <nav id="nav">
 					<ul>
@@ -60,8 +60,8 @@ class Header extends React.Component
 				<Navbar className="pos-f-t sticky-top" sticky-top light expand="md">
 					{/* <NavbarBrand href="/">reactstrap</NavbarBrand> */}
 					<NavbarToggler onClick={this.toggle} />
-					<Collapse className="sticky-top center justify-content-center" isOpen={this.state.isOpen} sticky-top navbar>
-						<Nav className="m-auto nixie bold_font_weight" justify-content-center navbar sticky-top>
+					<Collapse className="sticky-top center justify-content-center  sticky-top" isOpen={this.state.isOpen} navbar>
+						<Nav className="m-auto nixie bold_font_weight justify-content-center  sticky-top" navbar>
 							<NavItem >
 								<Link className="navBarObjects hoverPink roundedBorder" to="/">Home</Link>
 							</NavItem>
@@ -74,17 +74,17 @@ class Header extends React.Component
 							<NavItem>
 								<Link className="navBarObjects hoverPink  roundedBorder" to="/event/">Events</Link>
 								{/* <a className="navBarObjects hoverPink  dropdown-toggle roundedBorder" data-toggle="dropdown" href="#" role="button" to="/event/">Events</a>
-								<div class="dropdown-menu dropdownMenu">
-									<Link class="dropdown-item" to="/event/">Events</Link>
-									<a class="dropdown-item" href="https://jcacweb.github.io/2020YearBook/" target="_blank">Hall Year Book 2020</a>
-									<a class="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
+								<div className="dropdown-menu dropdownMenu">
+									<Link className="dropdown-item" to="/event/">Events</Link>
+									<a className="dropdown-item" href="https://jcacweb.github.io/2020YearBook/" target="_blank">Hall Year Book 2020</a>
+									<a className="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
 								</div> */}
 							</NavItem>
 							<NavItem>
 								<a className="navBarObjects hoverPink  dropdown-toggle roundedBorder" data-toggle="dropdown" href="#" role="button" to="/event/">Year Book</a>
-								<div class="dropdown-menu dropdownMenu">
-									<a class="dropdown-item" href="https://jcacweb.github.io/2020YearBook/" target="_blank">Hall Year Book 2020</a>
-									<a class="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
+								<div className="dropdown-menu dropdownMenu">
+									<a className="dropdown-item" href="https://jcacweb.github.io/2020YearBook/" target="_blank">Hall Year Book 2020</a>
+									<a className="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
 								</div>
 							</NavItem>
 							{/* <NavItem>

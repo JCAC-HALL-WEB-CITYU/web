@@ -39,16 +39,16 @@ class Carousel extends React.Component
 		return (
 
 			<div >
-				<div id="carousel" class="carousel slide" data-ride="carousel">
-					{/* <ol class="carousel-indicators">
-						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<div id="carousel" className="carousel slide" data-ride="carousel">
+					{/* <ol className="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 					</ol> */}
 
-					<div class="carousel-inner">
+					<div className="carousel-inner">
 
-						<div class="carousel-item active">
+						<div className="carousel-item active">
 
 
 							<div className="fitContent" >
@@ -71,7 +71,7 @@ class Carousel extends React.Component
 
 
 						</div>
-						<div class="carousel-item">
+						<div className="carousel-item">
 
 
 
@@ -97,7 +97,7 @@ class Carousel extends React.Component
 
 
 						</div>
-						<div class="carousel-item">
+						<div className="carousel-item">
 
 							<div className="fitContent" >
 								<div className="overlay"></div>
@@ -120,7 +120,7 @@ class Carousel extends React.Component
 
 
 						</div>
-						<div class="carousel-item">
+						<div className="carousel-item">
 
 							<div className="fitContent" >
 								<div className="overlay"></div>
@@ -144,13 +144,13 @@ class Carousel extends React.Component
 
 						</div>
 					</div>
-					<a class="carousel-control-prev"  role="button" data-slide="prev" onClick={this.clickerPrev}>
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
+					<a className="carousel-control-prev"  role="button" data-slide="prev" onClick={this.clickerPrev}>
+						<span className="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span className="sr-only">Previous</span>
 					</a>
-					<a class="carousel-control-next" role="button" data-slide="next" onClick={this.clickerNext}>
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
+					<a className="carousel-control-next" role="button" data-slide="next" onClick={this.clickerNext}>
+						<span className="carousel-control-next-icon" aria-hidden="true"></span>
+						<span className="sr-only">Next</span>
 					</a>
 					
 				</div>
