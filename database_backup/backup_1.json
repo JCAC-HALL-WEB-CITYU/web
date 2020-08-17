@@ -1,0 +1,369 @@
+{
+  "Content" : {
+    "content" : [ {
+      "link" : "https://jcacweb.github.io/2020YearBook/",
+      "shortPara" : "How was your this year? Hope you enjoyed a lot in JCAC✨ Now you can check our HALL YEAR BOOK!Check out our Hall Year Book now!",
+      "splashImage" : "https://jcacweb.github.io/2020YearBook/pages/CompiledFinal1.png",
+      "title" : "Hall Year Book 2020"
+    }, {
+      "link" : "https://mp.weixin.qq.com/s/HSHJG5ZqV1LBV7x56SVtrA",
+      "shortPara" : "A variety of foods such as chicken, fish, and prawn are cooked in one large basin, which makes up the traditional Cantonese cuisine originating in ...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2Fpoonchoi.jpg?alt=media&token=ab060244-ce5d-433f-9e9d-d5b5174dcf63",
+      "title" : "Poon Choi Feast 盆菜宴"
+    }, {
+      "link" : "https://mp.weixin.qq.com/s/0scUP4K6TwH1cvSNZAM9xQ",
+      "shortPara" : "In Q&A competition held on Mar 19th, Academians showed all they know about various categories of questions and presented an extremely fierce battle...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FQ%26A?alt=media&token=02b620e8-3d50-496b-a4b7-14a45f5ac822",
+      "title" : "Q&A Competition"
+    }, {
+      "link" : "https://jcacweb.github.io/2019YearBook/",
+      "shortPara" : "How was your this year? Hope you enjoyed a lot in JCAC✨ Now you can check our HALL YEAR BOOK!Check out our Hall Year Book now!",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FCompiledFinal1-01.png?alt=media&token=6b1d0da6-376a-4bd8-be01-29b08a4c0b9c",
+      "title" : "Hall Year Book 2019"
+    } ],
+    "contentForEvent" : [ {
+      "date" : "6th Oct",
+      "link" : "https://mp.weixin.qq.com/s/dOjWc5193zvvp6E324aPFg",
+      "para" : "PEK Aquatic Meeting was held in CityU swimming pool on Oct 6th. Academians were all in red T-shirts, proudly cheering for our 12 swimmers...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FAQUATIC.png?alt=media&token=42eab531-c3d7-4bce-95bc-dd0a1ecc532c",
+      "title" : "PEK Aquatic Meet"
+    }, {
+      "date" : "14th Oct",
+      "link" : "https://mp.weixin.qq.com/s/bYOjrFq23thcgZvZJp8QMA",
+      "para" : "PEK Athletic Competition was held JointSports Center on Oct 14th. Academians got together there cheering for our runners. At the sound of the gun, the first runner shot from the starting point...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FAthletic.webp?alt=media&token=8bf4c4d5-b617-47bd-97bc-49b6dcc51632",
+      "title" : "PEK Athletic Meet"
+    }, {
+      "date" : "1st Nov",
+      "link" : "https://mp.weixin.qq.com/s/ZJDl2b36pg_GmotgTJggLQ",
+      "para" : "On the evening of November 1st with the cool Autumn wind, residents of Hall 4 gathered together at Multi-function HallB, participating in Meet-And-Chat Night hold by SRO and Hall 4...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FMAC?alt=media&token=d067e369-ab30-4ec5-a321-f7ffca1b86cb",
+      "title" : "Meet-And-Chat Night"
+    }, {
+      "date" : "14th Nov",
+      "link" : "https://mp.weixin.qq.com/s/2MQl9q_573cmRA6wpEju-g",
+      "para" : "On Nov. 14th, the expected High Table Dinner was held by JCAC Resident Association. Themed as “little prince”, the High Table Dinner was decorated magnificently and tidily. All participants were in formal suit, graceful and elegant...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FHighTableDinner?alt=media&token=479383d7-0668-4251-bca8-2e5d8b70b974",
+      "title" : "High Table Dinner"
+    }, {
+      "date" : "21st Oct - 18th Nov",
+      "link" : "https://mp.weixin.qq.com/s/_xUOoVg50RMoAOrnfvDyuA",
+      "para" : "On Oct. 18th, the third round of PEK tennis match (Hall4 vs. Hall10) was held in Joint SportsCentre. Academians were all in red hall-T, standing together and aiming for the victory...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FTennis?alt=media&token=ab4476ca-346e-4720-ad65-9021fc191ff7",
+      "title" : "PEK Tennis"
+    }, {
+      "date" : "20th Oct - 24th Nov",
+      "link" : "https://mp.weixin.qq.com/s/q7aSA00RpAUkzhLMZNKmBQ",
+      "para" : "On Nov 17th, PEK soccer semi-final (Hall4 vs. Hall2) got its opening at Joint Sports Centre.Taking with triple-game wins, JCAC soccer team was full of confidence, while our Academians got together there to cheer for our players...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FSoccer?alt=media&token=4bf6449a-6057-4337-9b0a-dd8d66e99c20",
+      "title" : "PEK Soccer"
+    }, {
+      "date" : "25th Nov",
+      "link" : "https://mp.weixin.qq.com/s/VGFO72TOp_ksgWK4esbOgQ",
+      "para" : "Co-organised by the Student Residence Office (SRO) and Jockey Club Academy Hall (Hall 4), you are invited to join the Silent Sky Project# by Dutch Visual Artist Mr. Rob Sweere (Project initiated by an inbound exchange student)...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FSilentSky.jpg?alt=media&token=9a58792c-9136-444f-b23f-e1ea95852ac6",
+      "title" : "Silent Sky"
+    }, {
+      "date" : "1st Dec",
+      "link" : "https://mp.weixin.qq.com/s/7MDp0WnnCVX_Ux-SBhepLg",
+      "para" : "Bathed in warm sunlight and feeling cool wind, Academians left for Cheung Chau Island with happiness and comfort...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FIntegrationTrip?alt=media&token=847500d4-4d42-4282-9c29-90973a34750b",
+      "title" : "Integration Trip"
+    }, {
+      "date" : "15th Jan",
+      "link" : "https://mp.weixin.qq.com/s/7hV3O0QzcC8M_JVaOKpCCg",
+      "para" : "The new semester is coming with the new year ring of 2019. From now on, our JCAC public account will be accompanying with you to experience and expect every excellent moment of Semester B...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FGlobalTeaReception.jpg?alt=media&token=7d4759a5-679b-443e-a911-80d0892e0769",
+      "title" : "Global Tea Reception"
+    }, {
+      "date" : "23rd Jan",
+      "link" : "https://mp.weixin.qq.com/s/duw-ujEog-JBpRpaqKZ4Yg",
+      "para" : "With the theme of “full of happiness” and various cartoon characters decorations, the activity venue was bustling with laugh and excitement...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FFunfair.jpg?alt=media&token=9e8d044f-f1ce-4d0e-9371-b93554fece5c",
+      "title" : "Funfair"
+    }, {
+      "date" : "22nd Feb",
+      "link" : "https://mp.weixin.qq.com/s/VHbjJTkZOaw4-oZOTELR4g",
+      "para" : "In the charge of JCAC Resident Association, Dodgeball Competition was held at Outdoor Basketball Court on Feb 22nd...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FDodgeball?alt=media&token=9ac8fde2-0a55-4016-8ea5-63b74782d5fa",
+      "title" : "Dodgeball"
+    }, {
+      "date" : "24th Feb",
+      "link" : "https://mp.weixin.qq.com/s/Rk8G-ynqZt5V5PUFowfSiw",
+      "para" : "PEK Basketball Competition Women’s final took place at Outdoor Basketball Court on Feb 24th. With encouragement from our cheering team, JCAC Women’s basketball team was fully confident and prepared to battle against Hall 7...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FBasketball?alt=media&token=77b1b724-8d0c-4f92-b7a9-5ec6152956b5",
+      "title" : "PEK Basketball"
+    }, {
+      "date" : "1st Mar",
+      "link" : "https://mp.weixin.qq.com/s/iW-4jA4enc3am8YB4GAsgw",
+      "para" : "PEK Table Tennis Tournament quarter-finals got started on Mar 1st. JCAC Table Tennis Team was expected to defeat Hall 3 and enter the semi-finals after the previous victory...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FTableTennis?alt=media&token=8ece34a5-1515-4e33-9022-1ea2b46b02fd",
+      "title" : "PEK Table Tennis"
+    }, {
+      "date" : "2nd Mar",
+      "link" : "https://mp.weixin.qq.com/s/_j01yz5dGAyugurAGBtGkg",
+      "para" : "Spring wind softly blowing and warm sunshine flooding on the earth, Ngong Ping Cultural Trip was successfully held by JCAC Resident Association...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FCultureTrip?alt=media&token=0bdf7174-c466-45d2-acc4-27d602b59dbc",
+      "title" : "Cultural Trip - Ngong Ping"
+    }, {
+      "date" : "6th Mar",
+      "link" : "https://mp.weixin.qq.com/s/GLO7-mEbAdPhA-8hFiiNfw",
+      "para" : "靜思少年往事，平實質樸的一切彷彿都歷歷在目。那種看不見摸不著的淳樸誠懇，正是紛繁複雜的當下所缺少的至寶。。。",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FAcaSingCon?alt=media&token=c099d495-6e02-47ea-8b27-acce699750f4",
+      "title" : "記得早先少年時 ACANOVA - Singing Contest"
+    }, {
+      "date" : "19th Mar",
+      "link" : "https://mp.weixin.qq.com/s/0scUP4K6TwH1cvSNZAM9xQ",
+      "para" : "In Q&A competition held on Mar 19th, Academians showed all they know about various categories of questions and presented an extremely fierce battle. Every participant was like an alive encyclopedia!...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FQ%26A?alt=media&token=02b620e8-3d50-496b-a4b7-14a45f5ac822",
+      "title" : "Q&A Competition"
+    }, {
+      "date" : "23rd Mar",
+      "link" : "https://mp.weixin.qq.com/s/HSHJG5ZqV1LBV7x56SVtrA",
+      "para" : "A variety of foods such as chicken, fish, and prawn are cooked in one large basin, which makes up the traditional Cantonese cuisine originating in New Territories, Hong Kong...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2Fpoonchoi.jpg?alt=media&token=ab060244-ce5d-433f-9e9d-d5b5174dcf63",
+      "title" : "Poon Choi Feast"
+    }, {
+      "date" : "26th Mar",
+      "link" : "https://mp.weixin.qq.com/s/2N2WV4fZzFX0UPJIDY5TKA",
+      "para" : "Career Carnival is held on 26th March co-organized together with Student Residence Office (SR) and Jockey Club Academy Hall (Hall 4)!...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FCareerCarnival.jpeg?alt=media&token=85e3953d-7986-435b-b5e7-c36bb7c7757c",
+      "title" : "Career Carnival"
+    }, {
+      "date" : "28th May",
+      "link" : "https://jcacweb.github.io/2019YearBook/",
+      "para" : "How was your this year? Hope you enjoyed a lot in JCAC✨ Now you can check our HALL YEAR BOOK! Please click the link below and check whether you are in the photos or not!!Check out our Hall Year Book now!",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FCompiledFinal1-01.png?alt=media&token=6b1d0da6-376a-4bd8-be01-29b08a4c0b9c",
+      "title" : "Hall Year Book 2019"
+    }, {
+      "date" : "25th May",
+      "link" : "https://jcacweb.github.io/2020YearBook/",
+      "para" : "As the semester ended, take a break and look back at what we have achieved in Hall 4. The year was long, not always pleasant, but the company of fellow residents has made our life better. All residents are part of the bigger Hall 4 family. Feel free to take a look of 2019/20 Hall Book from the link below. ",
+      "splashImage" : "https://jcacweb.github.io/2020YearBook/pages/CompiledFinal1.png",
+      "title" : "Hall Year Book 2020"
+    } ]
+  },
+  "Content2" : {
+    "content" : [ {
+      "link" : "http://www7.cityu.edu.hk/sro/academyhall/#/event/",
+      "shortPara" : "What? You don’t know how’s the hall life in Hall 4? Click here to check it out!",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/events%2Fevents_4501x3000.png?alt=media&token=ffd1a18b-faae-4b5e-af95-ea88ac4291ba",
+      "title" : "Colourful Hall Life"
+    }, {
+      "link" : "https://www.cityu.edu.hk/sro/htm/e_policies_hallrules_04.htm",
+      "shortPara" : "Click on “READ MORE” to understand more about the hall rules of Hall 4.",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/events%2Fhall%20rules-update%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F%202.png?alt=media&token=ae1b5460-4899-46d2-acfd-aa216ca92ffb",
+      "title" : "Hall Rules"
+    }, {
+      "link" : "https://youtu.be/vMegRIuCPoc",
+      "shortPara" : "Have you ever wondered what the hall life in Hall 4 is? Party forever? Revising only? Watch this video to find out now!",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/events%2Fpromotion_video_1080x720.jpg?alt=media&token=dad0a708-c3d8-45ca-9b24-4f547eb027fd",
+      "title" : "Life in Hall 4"
+    }, {
+      "link" : "https://www.instagram.com/jcac_hall4/?hl=zh-hk",
+      "shortPara" : "Follow us on Facebook and Instagram now for more! ",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/events%2Fsocial1080x720.png?alt=media&token=68121cb0-fc05-4493-a641-df528a4b5fe7",
+      "title" : "Our Social Media"
+    }, {
+      "link" : "https://jcacweb.github.io/2020YearBook/",
+      "shortPara" : "How was your this year? Hope you enjoyed a lot in JCAC✨ Now you can check our HALL YEAR BOOK!Check out our Hall Year Book now!",
+      "splashImage" : "https://jcacweb.github.io/2020YearBook/pages/CompiledFinal1.png",
+      "title" : "Hall Year Book 2020"
+    }, {
+      "link" : "https://mp.weixin.qq.com/s/HSHJG5ZqV1LBV7x56SVtrA",
+      "shortPara" : "A variety of foods such as chicken, fish, and prawn are cooked in one large basin, which makes up the traditional Cantonese cuisine originating in ...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2Fpoonchoi.jpg?alt=media&token=ab060244-ce5d-433f-9e9d-d5b5174dcf63",
+      "title" : "Poon Choi Feast 盆菜宴"
+    }, {
+      "link" : "https://mp.weixin.qq.com/s/0scUP4K6TwH1cvSNZAM9xQ",
+      "shortPara" : "In Q&A competition held on Mar 19th, Academians showed all they know about various categories of questions and presented an extremely fierce battle...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FQ%26A?alt=media&token=02b620e8-3d50-496b-a4b7-14a45f5ac822",
+      "title" : "Q&A Competition"
+    }, {
+      "link" : "https://jcacweb.github.io/2019YearBook/",
+      "shortPara" : "How was your this year? Hope you enjoyed a lot in JCAC✨ Now you can check our HALL YEAR BOOK!Check out our Hall Year Book now!",
+      "splashImage" : "https://jcac-hall-web-cityu.github.io/imageRepository/hall%20book%202019.png",
+      "title" : "Hall Year Book 2019"
+    } ],
+    "contentForEvent" : [ {
+      "date" : "6th Oct",
+      "link" : "https://mp.weixin.qq.com/s/dOjWc5193zvvp6E324aPFg",
+      "para" : "PEK Aquatic Meeting was held in CityU swimming pool on Oct 6th. Academians were all in red T-shirts, proudly cheering for our 12 swimmers...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FAQUATIC.png?alt=media&token=42eab531-c3d7-4bce-95bc-dd0a1ecc532c",
+      "title" : "PEK Aquatic Meet"
+    }, {
+      "date" : "14th Oct",
+      "link" : "https://mp.weixin.qq.com/s/bYOjrFq23thcgZvZJp8QMA",
+      "para" : "PEK Athletic Competition was held JointSports Center on Oct 14th. Academians got together there cheering for our runners. At the sound of the gun, the first runner shot from the starting point...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FAthletic.webp?alt=media&token=8bf4c4d5-b617-47bd-97bc-49b6dcc51632",
+      "title" : "PEK Athletic Meet"
+    }, {
+      "date" : "1st Nov",
+      "link" : "https://mp.weixin.qq.com/s/ZJDl2b36pg_GmotgTJggLQ",
+      "para" : "On the evening of November 1st with the cool Autumn wind, residents of Hall 4 gathered together at Multi-function HallB, participating in Meet-And-Chat Night hold by SRO and Hall 4...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FMAC?alt=media&token=d067e369-ab30-4ec5-a321-f7ffca1b86cb",
+      "title" : "Meet-And-Chat Night"
+    }, {
+      "date" : "14th Nov",
+      "link" : "https://mp.weixin.qq.com/s/2MQl9q_573cmRA6wpEju-g",
+      "para" : "On Nov. 14th, the expected High Table Dinner was held by JCAC Resident Association. Themed as “little prince”, the High Table Dinner was decorated magnificently and tidily. All participants were in formal suit, graceful and elegant...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FHighTableDinner?alt=media&token=479383d7-0668-4251-bca8-2e5d8b70b974",
+      "title" : "High Table Dinner"
+    }, {
+      "date" : "21st Oct - 18th Nov",
+      "link" : "https://mp.weixin.qq.com/s/_xUOoVg50RMoAOrnfvDyuA",
+      "para" : "On Oct. 18th, the third round of PEK tennis match (Hall4 vs. Hall10) was held in Joint SportsCentre. Academians were all in red hall-T, standing together and aiming for the victory...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FTennis?alt=media&token=ab4476ca-346e-4720-ad65-9021fc191ff7",
+      "title" : "PEK Tennis"
+    }, {
+      "date" : "20th Oct - 24th Nov",
+      "link" : "https://mp.weixin.qq.com/s/q7aSA00RpAUkzhLMZNKmBQ",
+      "para" : "On Nov 17th, PEK soccer semi-final (Hall4 vs. Hall2) got its opening at Joint Sports Centre.Taking with triple-game wins, JCAC soccer team was full of confidence, while our Academians got together there to cheer for our players...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FSoccer?alt=media&token=4bf6449a-6057-4337-9b0a-dd8d66e99c20",
+      "title" : "PEK Soccer"
+    }, {
+      "date" : "25th Nov",
+      "link" : "https://mp.weixin.qq.com/s/VGFO72TOp_ksgWK4esbOgQ",
+      "para" : "Co-organised by the Student Residence Office (SRO) and Jockey Club Academy Hall (Hall 4), you are invited to join the Silent Sky Project# by Dutch Visual Artist Mr. Rob Sweere (Project initiated by an inbound exchange student)...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FSilentSky.jpg?alt=media&token=9a58792c-9136-444f-b23f-e1ea95852ac6",
+      "title" : "Silent Sky"
+    }, {
+      "date" : "1st Dec",
+      "link" : "https://mp.weixin.qq.com/s/7MDp0WnnCVX_Ux-SBhepLg",
+      "para" : "Bathed in warm sunlight and feeling cool wind, Academians left for Cheung Chau Island with happiness and comfort...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FIntegrationTrip?alt=media&token=847500d4-4d42-4282-9c29-90973a34750b",
+      "title" : "Integration Trip"
+    }, {
+      "date" : "15th Jan",
+      "link" : "https://mp.weixin.qq.com/s/7hV3O0QzcC8M_JVaOKpCCg",
+      "para" : "The new semester is coming with the new year ring of 2019. From now on, our JCAC public account will be accompanying with you to experience and expect every excellent moment of Semester B...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FGlobalTeaReception.jpg?alt=media&token=7d4759a5-679b-443e-a911-80d0892e0769",
+      "title" : "Global Tea Reception"
+    }, {
+      "date" : "23rd Jan",
+      "link" : "https://mp.weixin.qq.com/s/duw-ujEog-JBpRpaqKZ4Yg",
+      "para" : "With the theme of “full of happiness” and various cartoon characters decorations, the activity venue was bustling with laugh and excitement...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FFunfair.jpg?alt=media&token=9e8d044f-f1ce-4d0e-9371-b93554fece5c",
+      "title" : "Funfair"
+    }, {
+      "date" : "22nd Feb",
+      "link" : "https://mp.weixin.qq.com/s/VHbjJTkZOaw4-oZOTELR4g",
+      "para" : "In the charge of JCAC Resident Association, Dodgeball Competition was held at Outdoor Basketball Court on Feb 22nd...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FDodgeball?alt=media&token=9ac8fde2-0a55-4016-8ea5-63b74782d5fa",
+      "title" : "Dodgeball"
+    }, {
+      "date" : "24th Feb",
+      "link" : "https://mp.weixin.qq.com/s/Rk8G-ynqZt5V5PUFowfSiw",
+      "para" : "PEK Basketball Competition Women’s final took place at Outdoor Basketball Court on Feb 24th. With encouragement from our cheering team, JCAC Women’s basketball team was fully confident and prepared to battle against Hall 7...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FBasketball?alt=media&token=77b1b724-8d0c-4f92-b7a9-5ec6152956b5",
+      "title" : "PEK Basketball"
+    }, {
+      "date" : "1st Mar",
+      "link" : "https://mp.weixin.qq.com/s/iW-4jA4enc3am8YB4GAsgw",
+      "para" : "PEK Table Tennis Tournament quarter-finals got started on Mar 1st. JCAC Table Tennis Team was expected to defeat Hall 3 and enter the semi-finals after the previous victory...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FTableTennis?alt=media&token=8ece34a5-1515-4e33-9022-1ea2b46b02fd",
+      "title" : "PEK Table Tennis"
+    }, {
+      "date" : "2nd Mar",
+      "link" : "https://mp.weixin.qq.com/s/_j01yz5dGAyugurAGBtGkg",
+      "para" : "Spring wind softly blowing and warm sunshine flooding on the earth, Ngong Ping Cultural Trip was successfully held by JCAC Resident Association...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FCultureTrip?alt=media&token=0bdf7174-c466-45d2-acc4-27d602b59dbc",
+      "title" : "Cultural Trip - Ngong Ping"
+    }, {
+      "date" : "6th Mar",
+      "link" : "https://mp.weixin.qq.com/s/GLO7-mEbAdPhA-8hFiiNfw",
+      "para" : "靜思少年往事，平實質樸的一切彷彿都歷歷在目。那種看不見摸不著的淳樸誠懇，正是紛繁複雜的當下所缺少的至寶。。。",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FAcaSingCon?alt=media&token=c099d495-6e02-47ea-8b27-acce699750f4",
+      "title" : "記得早先少年時 ACANOVA - Singing Contest"
+    }, {
+      "date" : "19th Mar",
+      "link" : "https://mp.weixin.qq.com/s/0scUP4K6TwH1cvSNZAM9xQ",
+      "para" : "In Q&A competition held on Mar 19th, Academians showed all they know about various categories of questions and presented an extremely fierce battle. Every participant was like an alive encyclopedia!...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FQ%26A?alt=media&token=02b620e8-3d50-496b-a4b7-14a45f5ac822",
+      "title" : "Q&A Competition"
+    }, {
+      "date" : "23rd Mar",
+      "link" : "https://mp.weixin.qq.com/s/HSHJG5ZqV1LBV7x56SVtrA",
+      "para" : "A variety of foods such as chicken, fish, and prawn are cooked in one large basin, which makes up the traditional Cantonese cuisine originating in New Territories, Hong Kong...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2Fpoonchoi.jpg?alt=media&token=ab060244-ce5d-433f-9e9d-d5b5174dcf63",
+      "title" : "Poon Choi Feast"
+    }, {
+      "date" : "26th Mar",
+      "link" : "https://mp.weixin.qq.com/s/2N2WV4fZzFX0UPJIDY5TKA",
+      "para" : "Career Carnival is held on 26th March co-organized together with Student Residence Office (SR) and Jockey Club Academy Hall (Hall 4)!...",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/1819%2Fevents%2FCareerCarnival.jpeg?alt=media&token=85e3953d-7986-435b-b5e7-c36bb7c7757c",
+      "title" : "Career Carnival"
+    }, {
+      "date" : "28th May",
+      "link" : "https://jcacweb.github.io/2019YearBook/",
+      "para" : "How was your this year? Hope you enjoyed a lot in JCAC✨ Now you can check our HALL YEAR BOOK! Please click the link below and check whether you are in the photos or not!!Check out our Hall Year Book now!",
+      "splashImage" : "https://jcac-hall-web-cityu.github.io/imageRepository/hall%20book%202019.png",
+      "title" : "Hall Year Book 2019"
+    }, {
+      "date" : "25th May",
+      "link" : "https://jcacweb.github.io/2020YearBook/",
+      "para" : "As the semester ended, take a break and look back at what we have achieved in Hall 4. The year was long, not always pleasant, but the company of fellow residents has made our life better. All residents are part of the bigger Hall 4 family. Feel free to take a look of 2019/20 Hall Book from the link below. ",
+      "splashImage" : "https://jcacweb.github.io/2020YearBook/pages/CompiledFinal1.png",
+      "title" : "Hall Year Book 2020"
+    }, {
+      "date" : "18th Aug",
+      "link" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/events%2Fsocial_media_8000x4500.png?alt=media&token=f8d5fa2f-fa1b-4c72-bed3-40ae1d8b55bd",
+      "para" : "Follow us on Facebook and Instagram now for more! ",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/events%2Fsocial_media_8000x4500.png?alt=media&token=f8d5fa2f-fa1b-4c72-bed3-40ae1d8b55bd",
+      "title" : "Our Social Media"
+    }, {
+      "date" : "18th Aug",
+      "link" : "https://youtu.be/vMegRIuCPoc ",
+      "para" : "Have you ever wondered what the hall life in Hall 4 is? Party forever? Revising only? Watch this video to find out now!",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/events%2Fevents_8000x4500.png?alt=media&token=8e43ebf1-17b7-4cb4-ae67-d00f05a563ed",
+      "title" : "Life in Hall 4 "
+    }, {
+      "date" : "18th Aug",
+      "link" : "https://www.cityu.edu.hk/sro/htm/e_policies_hallrules_04.htm",
+      "para" : "Click on “READ MORE” to understand more about the hall rules of Hall 4.",
+      "splashImage" : "https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/events%2Fhall_rule_8000x4500.png?alt=media&token=e08c9918-4067-4af3-8af7-aa8c25662f2b",
+      "title" : "Hall Rules"
+    } ],
+    "facility" : [ {
+      "image" : "./web/facility/lobby.png",
+      "isin" : [ "G/F" ],
+      "name" : "Lobby"
+    }, {
+      "image" : "./web/facility/mail box.png",
+      "isin" : [ "G/F" ],
+      "name" : "Mail Box"
+    }, {
+      "image" : "./web/facility/common room.png",
+      "isin" : [ "G/F", "Others" ],
+      "name" : "Common Room"
+    }, {
+      "image" : "./web/facility/piano room.jpg",
+      "isin" : [ "G/F" ],
+      "name" : "Piano Room"
+    }, {
+      "image" : "./web/facility/happy corner.jpg",
+      "isin" : [ "G/F" ],
+      "name" : "Happy Corner"
+    }, {
+      "image" : "./web/facility/gym.png",
+      "isin" : [ "G/F" ],
+      "name" : "Gym"
+    }, {
+      "image" : "./web/facility/computer.png",
+      "isin" : [ "G/F" ],
+      "name" : "Computer Room"
+    }, {
+      "image" : "./web/facility/pool.png",
+      "isin" : [ "G/F" ],
+      "name" : "Pool Room"
+    }, {
+      "image" : "./web/facility/laundry room.png",
+      "isin" : [ "Roof" ],
+      "name" : "Laundry Room"
+    }, {
+      "image" : "./web/facility/hanging rack.png",
+      "isin" : [ "Roof" ],
+      "name" : "Hanging Rack"
+    } ]
+  }
+}

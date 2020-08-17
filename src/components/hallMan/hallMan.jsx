@@ -88,7 +88,7 @@ class HallMan extends React.Component
 									<div className="row" id="RTimg">
 									<div className="col-md-6 col-12 p-0 m-0 my-auto d-flex justify-content-md-start justify-content-center flex-row-reverse pr-1 ">
 									
-										<img className="RTimg" src="./web/homepage/tutor_photo/Alex.JPG" alt="" />
+										<img className="RTimg" src="./web/homepage/tutor_photo/Alex.jpg" alt="" />
 										<div className="RTinfo">
 											<div className="w-100"><div className="triangle"></div><div className="title"><span>1001B</span> / Alex</div></div>
 											<div className="info"><b>10/F</b> | Returning, Scholarship, PEK Table tennis, Academians' Talk, MAC Night</div>

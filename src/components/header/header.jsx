@@ -41,7 +41,7 @@ class Header extends React.Component
 			<div className="header" >
 				<img className="headerLogo" src="./web/homepage/jcaclogo.jpg" />
 				<h1><Link className=" href" to="/">JCAC</Link></h1>
-				<h3 className="nixie">Jockey Club Academy Hall</h3>
+				<h2 className="nixie">Jockey Club Academy Hall</h2>
 				{/* <nav id="nav">
 					<ul>
 						<li ><Link to="/">Home</Link></li>

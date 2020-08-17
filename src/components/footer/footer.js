@@ -25,8 +25,8 @@ class Footer extends React.Component
 												<h2>CONTACT INFO</h2>
 											</header>
 											<p >
-												Jockey Club Academy Club Hall (Hall 4), Student Residence,City University of Hong Kong, 22 Cornwall Street, Kowloon,Kowloon, Hong Kong SAR</p>
-											<p>香港九龍塘歌和老街22號 香港城市大學學生宿舍賽馬會群智堂 (4座)</p>
+												Jockey Club Academy Hall (Hall 4), Student Residence, City University of Hong Kong, 22 Cornwall Street, Kowloon, Hong Kong SAR</p>
+											<p>香 港 九 龍 塘 歌 和 老 街 22 號  香 港 城 市 大 學 學 生 宿 舍 賽 馬 會 群 智 堂 (4 座)</p>
 										</section>
 									</div>
 									<div className="col-12 col-md-4">
@@ -35,7 +35,7 @@ class Footer extends React.Component
 												<h2>FOLLOW US</h2>
 											</header>
 
-											<ul className="social">
+											<ul className="social mb-0">
 												{/* <li><a className="icon fa-twitter" target="_blank" href="https://twitter.com/cityuhongkong"><span className="label">Twitter</span></a></li> */}
 												<li><a className="icon fa-facebook" target="_blank" href="https://www.facebook.com/JockeyClubAcademyHall"><span className="label">Facebook</span></a></li>
 												<li><a className="icon fa-instagram" target="_blank" href="https://www.instagram.com/jcac_hall4/"><span className="label">Instagram</span></a></li>
