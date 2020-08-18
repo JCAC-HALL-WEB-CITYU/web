@@ -72,6 +72,20 @@ class Header extends React.Component
 								<Link className="navBarObjects hoverPink roundedBorder" to="/hall_management">Hall Management</Link>
 							</NavItem>
 							<NavItem>
+								<a className="navBarObjects hoverPink roundedBorder" href="https://www.cityu.edu.hk/sro/htm/e_policies_hallrules_04.htm" target='_blank'>Hall Rules</a>
+							</NavItem>
+							<NavItem>
+								<a className="navBarObjects hoverPink  dropdown-toggle roundedBorder" data-toggle="dropdown" href="#" role="button" to="/event/">Year Book</a>
+								<div className="dropdown-menu dropdownMenu">
+									<a className="dropdown-item" href="https://jcacweb.github.io/2020YearBook/" target="_blank">Hall Year Book 2020</a>
+									<a className="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
+									<a className="dropdown-item" href="https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/yearbook%2FHall%20Book%202018.pdf?alt=media&token=766b752a-393e-4197-921f-bd9138157117" target="_blank">Hall Year Book 2018</a>
+								</div>
+							</NavItem>
+							<NavItem>
+								<Link className="navBarObjects hoverPink roundedBorder" to="/facility/">Facility</Link>
+							</NavItem>
+							<NavItem>
 								<Link className="navBarObjects hoverPink  roundedBorder" to="/event/">Events</Link>
 								{/* <a className="navBarObjects hoverPink  dropdown-toggle roundedBorder" data-toggle="dropdown" href="#" role="button" to="/event/">Events</a>
 								<div className="dropdown-menu dropdownMenu">
@@ -80,22 +94,12 @@ class Header extends React.Component
 									<a className="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
 								</div> */}
 							</NavItem>
-							<NavItem>
-								<a className="navBarObjects hoverPink  dropdown-toggle roundedBorder" data-toggle="dropdown" href="#" role="button" to="/event/">Year Book</a>
-								<div className="dropdown-menu dropdownMenu">
-									<a className="dropdown-item" href="https://jcacweb.github.io/2020YearBook/" target="_blank">Hall Year Book 2020</a>
-									<a className="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
-								</div>
-							</NavItem>
 							{/* <NavItem>
 								<Link className="navBarObjects hoverPink roundedBorder" to="/event/">Achievements</Link>
 							</NavItem> */}
 							{/* <NavItem>
 								<Link className="navBarObjects hoverPink roundedBorder" to="/event/">Hall Life</Link>
 							</NavItem> */}
-							<NavItem>
-								<Link className="navBarObjects hoverPink roundedBorder" to="/facility/">Facility</Link>
-							</NavItem>
 							<NavItem>
 								<a className="navBarObjects hoverPink roundedBorder icon fa-facebook" target="_blank" href="https://www.facebook.com/JockeyClubAcademyHall"><span className="label">Facebook</span></a>
 								<a className="navBarObjects hoverPink roundedBorder icon fa-instagram" target="_blank" href="https://www.instagram.com/jcac_hall4/"><span className="label">Instagram</span></a>

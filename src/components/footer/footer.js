@@ -40,8 +40,9 @@ class Footer extends React.Component
 												<li><a className="icon fa-facebook" target="_blank" href="https://www.facebook.com/JockeyClubAcademyHall"><span className="label">Facebook</span></a></li>
 												<li><a className="icon fa-instagram" target="_blank" href="https://www.instagram.com/jcac_hall4/"><span className="label">Instagram</span></a></li>
 												{/* <li><a className="icon fa-youtube" target="_blank" href="https://www.youtube.com/user/cityujcac"><span className="label">Youtube</span></a></li> */}
-												<li><a className="icon fa-weixin" target="_blank" href="https://weixin.qq.com/r/xi2ju-7eyqo1rbry93hm"><span className="label">WeChat</span></a></li>
+												{/* <li><a className="icon fa-weixin d-visible d-sm-none" target="_blank" href="https://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=https%3A%2F%2Fmp.weixin.qq.com%2Fmp%2Fprofile_ext%3Faction%3Dhome%26__biz%3DMzU5MjcxNjE2OA%3D%3D"><span className="label">WeChat</span></a></li> */}
 											</ul>
+											{/* <p>We chat please scan with WeChat QR Scanner</p> */}
 										</section>
 									</div>
 									<div className="col-12 col-md-4">
