@@ -83,7 +83,7 @@ class Header extends React.Component
 								</div>
 							</NavItem>
 							<NavItem>
-								<Link className="navBarObjects hoverPink roundedBorder" to="/facility/">Facility</Link>
+								<Link className="navBarObjects hoverPink roundedBorder" to="/facility/">Facilites</Link>
 							</NavItem>
 							<NavItem>
 								<Link className="navBarObjects hoverPink  roundedBorder" to="/event/">Events</Link>

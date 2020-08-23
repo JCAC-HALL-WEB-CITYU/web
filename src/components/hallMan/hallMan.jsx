@@ -41,7 +41,7 @@ class HallMan extends React.Component
 											<div className="w-100 ">
 											
 											<div className="title titleR">Sherry \ <span>301A</span></div><div className="triangle triangleR"></div></div>
-											<div className="info infoR"><b>2,3/F</b> | Advocacy | Liason, PEK Athletic Relay, Welcoming Reception</div>
+											<div className="info infoR"><b>2,3/F</b> | Advocacy, Liason, PEK Athletic Relay, Welcoming Reception</div>
 										</div>
 									</div>
 									</div>
