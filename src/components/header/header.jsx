@@ -78,13 +78,13 @@ class Header extends React.Component
 								<a className="navBarObjects hoverPink  dropdown-toggle roundedBorder" data-toggle="dropdown" href="#" role="button" to="/event/">Year Book</a>
 								<div className="dropdown-menu dropdownMenu">
 									{
-										this.props.yearbook.map(
-											x => <a className="dropdown-item" href="{x.link}">{x.text}</a>
+										this.props.yearbook.reverse().map(
+											x => <a className="dropdown-item" href={x.link} target="_blank">{x.text}</a>
 										)
 									}
-									<a className="dropdown-item" href="https://jcacweb.github.io/2020YearBook/" target="_blank">Hall Year Book 2020</a>
-									<a className="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
-									<a className="dropdown-item" href="https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/yearbook%2FHall%20Book%202018.pdf?alt=media&token=766b752a-393e-4197-921f-bd9138157117" target="_blank">Hall Year Book 2018</a>
+									{/* <a className="dropdown-item" href="https://jcacweb.github.io/2020YearBook/" target="_blank">Hall Year Book 2020</a> */}
+									{/* <a className="dropdown-item" href="https://jcacweb.github.io/2019YearBook/" target="_blank">Hall Year Book 2019</a>
+									<a className="dropdown-item" href="https://firebasestorage.googleapis.com/v0/b/publicity-website.appspot.com/o/yearbook%2FHall%20Book%202018.pdf?alt=media&token=766b752a-393e-4197-921f-bd9138157117" target="_blank">Hall Year Book 2018</a> */}
 								</div>
 							</NavItem>
 							<NavItem>
