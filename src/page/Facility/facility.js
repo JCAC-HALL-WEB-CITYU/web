@@ -34,7 +34,7 @@ class Facility extends Component
 
 						<section id="header">
 
-							<Header></Header>
+							<Header yearbook={this.props.yearbook}></Header>
 							<Cover coverText={"Facilities @ JCAC"} imgSrc={"./web/facility/lobby.png"} dontRenderButton={false}></Cover>
 						</section>
 

@@ -22,7 +22,7 @@ class Home extends Component
 
 						<section id="header">
 
-							<Header></Header>
+							<Header yearbook={this.props.yearbook}></Header>
 							<Carousel content={this.props.content} ></Carousel>
 							{/* <div id="banner2"> */}
 							{/* <div className="w-100">

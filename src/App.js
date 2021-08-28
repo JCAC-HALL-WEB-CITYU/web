@@ -35,6 +35,7 @@ class App extends Component
             content:[],
             contentForEvent:[],
             facility: [],
+            yearbook: [],
         }
         let database = firebase.database();
         database.ref('Content2').once('value').then(
@@ -98,25 +99,25 @@ class App extends Component
                         <Route 
                             exact={true} 
                             path={'/'} 
-                            component={() => <Home content = {this.state.content}></Home>}
+                            component={() => <Home content = {this.state.content} yearbook={this.state.yearbook}></Home>}
                             />
                         <Route 
                             exact={true} 
                             path={'/About'} 
-                            component={About} />
+                            component={() => <About yearbook={this.state.yearbook}></About>} />
                         <Route 
                             exact={true} 
                             path= {'/Event'} 
-                            component={() => <EventPage content = {this.state.contentForEvent}></EventPage>} />
+                            component={() => <EventPage content = {this.state.contentForEvent} yearbook={this.state.yearbook}></EventPage>} />
                         <Route 
                             exact={true} 
                             path={'/hall_management'} 
-                            component={HallManagement}
+                            component={() => <HallManagement yearbook={this.state.yearbook}></HallManagement>}
                            />
                         <Route 
                             exact={true} 
                             path={'/facility'} 
-                            component={() => <Facility content = {this.state.facility} ></Facility>}
+                            component={() => <Facility content = {this.state.facility} yearbook={this.state.yearbook}></Facility>}
                            />
                     </Switch>
                 </div>

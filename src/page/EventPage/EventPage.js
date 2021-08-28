@@ -20,7 +20,7 @@ class EventPage extends Component
 
 						<section id="header">
 
-							<Header></Header>
+							<Header yearbook={this.props.yearbook}></Header>
 							<Cover coverText={"EVENT @ JCAC"} imgSrc={"./web/aboutJCAC/about.png"} dontRenderButton={false}></Cover>
 						</section>
 						<TwoCard content={this.props.content}></TwoCard>

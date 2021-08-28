@@ -18,7 +18,7 @@ class About extends Component
 
 						<section id="header">
 
-							<Header></Header>
+							<Header yearbook={this.props.yearbook}></Header>
 							<Cover coverText={"ABOUT JCAC"} imgSrc={"./web/aboutJCAC/about.png"} dontRenderButton={false}></Cover>
 						</section>
 

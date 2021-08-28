@@ -20,7 +20,7 @@ class HallManagement extends Component
 
 						<section id="header">
 
-							<Header></Header>
+							<Header yearbook={this.props.yearbook}></Header>
 							<Cover coverText={"HALL MANAGEMENT"} imgSrc={"./web/hall_management/HallRT2020GroupPhoto.png"} dontRenderButton={false}></Cover>
 						</section>
 
